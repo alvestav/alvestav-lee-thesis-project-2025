@@ -11,6 +11,361 @@
 		(company "Raspberry Pi Ltd")
 	)
 	(lib_symbols
+		(symbol "Connector:USB_B_Micro"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USB_B_Micro"
+				(at -5.08 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB Micro Type B connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector USB micro"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "USB*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB_B_Micro_0_1"
+				(rectangle
+					(start -5.08 -7.62)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 2.159)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.635 3.429)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.127 -7.62)
+					(end 0.127 -6.858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 2.159) (xy 0.635 2.159)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 5.588) (xy -1.778 5.588) (xy -2.032 4.826) (xy -4.064 4.826) (xy -4.318 5.588)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.699 5.842) (xy -4.699 5.588) (xy -4.445 4.826) (xy -4.445 4.572) (xy -1.651 4.572) (xy -1.651 4.826)
+						(xy -1.397 5.588) (xy -1.397 5.842) (xy -4.699 5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.254 1.27)
+					(end -0.508 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.08 -5.207)
+					(end 4.318 -4.953)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -2.667)
+					(end 4.318 -2.413)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -0.127)
+					(end 4.318 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 4.953)
+					(end 4.318 5.207)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_B_Micro_1_1"
+				(pin power_out line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "ID"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -10642,6 +10997,7 @@
 	)
 	(label "XIN"
 		(at 152.4 147.32 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10652,6 +11008,7 @@
 	)
 	(label "GPIO44_ADC4"
 		(at 370.84 128.27 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10662,6 +11019,7 @@
 	)
 	(label "USB_D+"
 		(at 267.97 95.25 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10672,6 +11030,7 @@
 	)
 	(label "GPIO33"
 		(at 250.19 195.58 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10682,6 +11041,7 @@
 	)
 	(label "GPIO40_ADC0"
 		(at 250.19 215.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10692,6 +11052,7 @@
 	)
 	(label "GPIO32"
 		(at 250.19 193.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10702,6 +11063,7 @@
 	)
 	(label "GPIO45_ADC5"
 		(at 250.19 228.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10712,6 +11074,7 @@
 	)
 	(label "GPIO43_ADC3"
 		(at 370.84 130.81 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10722,6 +11085,7 @@
 	)
 	(label "GPIO33"
 		(at 370.84 156.21 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10732,6 +11096,7 @@
 	)
 	(label "GPIO41_ADC1"
 		(at 250.19 218.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10742,6 +11107,7 @@
 	)
 	(label "GPIO28"
 		(at 370.84 168.91 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10752,6 +11118,7 @@
 	)
 	(label "GPIO11"
 		(at 351.79 151.13 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10762,6 +11129,7 @@
 	)
 	(label "XOUT"
 		(at 152.4 152.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10772,6 +11140,7 @@
 	)
 	(label "GPIO3"
 		(at 351.79 130.81 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10782,6 +11151,7 @@
 	)
 	(label "GPIO18"
 		(at 250.19 157.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10792,6 +11162,7 @@
 	)
 	(label "GPIO15"
 		(at 351.79 161.29 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10802,6 +11173,7 @@
 	)
 	(label "GPIO39"
 		(at 370.84 140.97 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10812,6 +11184,7 @@
 	)
 	(label "FLASH2_SS"
 		(at 44.45 215.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10822,6 +11195,7 @@
 	)
 	(label "~{USB_BOOT}"
 		(at 129.54 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10832,6 +11206,7 @@
 	)
 	(label "GPIO38"
 		(at 370.84 143.51 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10842,6 +11217,7 @@
 	)
 	(label "GPIO8"
 		(at 351.79 143.51 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10852,6 +11228,7 @@
 	)
 	(label "GPIO31"
 		(at 370.84 161.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10862,6 +11239,7 @@
 	)
 	(label "GPIO35"
 		(at 370.84 151.13 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10872,6 +11250,7 @@
 	)
 	(label "GPIO1"
 		(at 351.79 125.73 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10882,6 +11261,7 @@
 	)
 	(label "GPIO46_ADC6"
 		(at 370.84 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10892,6 +11272,7 @@
 	)
 	(label "GPIO12"
 		(at 250.19 142.24 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10902,6 +11283,7 @@
 	)
 	(label "GPIO36"
 		(at 370.84 148.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10912,6 +11294,7 @@
 	)
 	(label "SWD"
 		(at 370.84 173.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10922,6 +11305,7 @@
 	)
 	(label "GPIO8"
 		(at 250.19 132.08 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10932,6 +11316,7 @@
 	)
 	(label "QSPI_SD2"
 		(at 92.71 130.175 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10942,6 +11327,7 @@
 	)
 	(label "GPIO45_ADC5"
 		(at 370.84 125.73 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10952,6 +11338,7 @@
 	)
 	(label "GPIO3"
 		(at 250.19 119.38 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10962,6 +11349,7 @@
 	)
 	(label "GPIO0"
 		(at 18.415 116.205 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10972,6 +11360,7 @@
 	)
 	(label "GPIO25"
 		(at 250.19 175.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10982,6 +11371,7 @@
 	)
 	(label "GPIO21"
 		(at 351.79 176.53 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10992,6 +11382,7 @@
 	)
 	(label "GPIO13"
 		(at 250.19 144.78 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11002,6 +11393,7 @@
 	)
 	(label "GPIO36"
 		(at 250.19 203.2 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11012,6 +11404,7 @@
 	)
 	(label "GPIO2"
 		(at 250.19 116.84 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11022,6 +11415,7 @@
 	)
 	(label "XIN"
 		(at 92.71 259.08 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11032,6 +11426,7 @@
 	)
 	(label "GPIO38"
 		(at 250.19 208.28 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11042,6 +11437,7 @@
 	)
 	(label "GPIO19"
 		(at 351.79 171.45 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11052,6 +11448,7 @@
 	)
 	(label "RUN"
 		(at 152.4 165.1 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11062,6 +11459,7 @@
 	)
 	(label "GPIO16"
 		(at 250.19 152.4 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11072,6 +11470,7 @@
 	)
 	(label "SWD"
 		(at 317.5 219.71 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11082,6 +11481,7 @@
 	)
 	(label "QSPI_SD0"
 		(at 152.4 127 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11092,6 +11492,7 @@
 	)
 	(label "GPIO5"
 		(at 250.19 124.46 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11102,6 +11503,7 @@
 	)
 	(label "QSPI_SD0"
 		(at 92.71 122.555 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11112,6 +11514,7 @@
 	)
 	(label "GPIO43_ADC3"
 		(at 250.19 223.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11122,6 +11525,7 @@
 	)
 	(label "GPIO34"
 		(at 370.84 153.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11132,6 +11536,7 @@
 	)
 	(label "QSPI_SS"
 		(at 152.4 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11142,6 +11547,7 @@
 	)
 	(label "SWCLK"
 		(at 152.4 176.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11152,6 +11558,7 @@
 	)
 	(label "GPIO1"
 		(at 250.19 114.3 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11162,6 +11569,7 @@
 	)
 	(label "GPIO21"
 		(at 250.19 165.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11172,6 +11580,7 @@
 	)
 	(label "SWCLK"
 		(at 370.84 176.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11182,6 +11591,7 @@
 	)
 	(label "QSPI_SD2"
 		(at 95.25 220.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11192,6 +11602,7 @@
 	)
 	(label "GPIO25"
 		(at 370.84 184.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11202,6 +11613,7 @@
 	)
 	(label "GPIO35"
 		(at 250.19 200.66 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11212,6 +11624,7 @@
 	)
 	(label "GPIO37"
 		(at 250.19 205.74 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11222,6 +11635,7 @@
 	)
 	(label "GPIO20"
 		(at 250.19 162.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11232,6 +11646,7 @@
 	)
 	(label "GPIO40_ADC0"
 		(at 370.84 138.43 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11242,6 +11657,7 @@
 	)
 	(label "GPIO32"
 		(at 370.84 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11252,6 +11668,7 @@
 	)
 	(label "GPIO12"
 		(at 351.79 153.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11262,6 +11679,7 @@
 	)
 	(label "GPIO10"
 		(at 351.79 148.59 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11272,6 +11690,7 @@
 	)
 	(label "GPIO37"
 		(at 370.84 146.05 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11282,6 +11701,7 @@
 	)
 	(label "GPIO7"
 		(at 250.19 129.54 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11292,6 +11712,7 @@
 	)
 	(label "QSPI_SD3"
 		(at 92.71 132.715 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11302,6 +11723,7 @@
 	)
 	(label "XOUT"
 		(at 92.71 269.24 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11312,6 +11734,7 @@
 	)
 	(label "GPIO17"
 		(at 250.19 154.94 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11322,6 +11745,7 @@
 	)
 	(label "GPIO7"
 		(at 351.79 140.97 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11332,6 +11756,7 @@
 	)
 	(label "GPIO47_ADC7"
 		(at 250.19 233.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11342,6 +11767,7 @@
 	)
 	(label "GPIO17"
 		(at 351.79 166.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11352,6 +11778,7 @@
 	)
 	(label "RUN"
 		(at 370.84 171.45 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11362,6 +11789,7 @@
 	)
 	(label "GPIO20"
 		(at 351.79 173.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11372,6 +11800,7 @@
 	)
 	(label "GPIO39"
 		(at 250.19 210.82 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11382,6 +11811,7 @@
 	)
 	(label "QSPI_SS"
 		(at 18.415 125.095 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11392,6 +11822,7 @@
 	)
 	(label "GPIO29"
 		(at 250.19 185.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11402,6 +11833,7 @@
 	)
 	(label "QSPI_SD0"
 		(at 95.25 213.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11412,6 +11844,7 @@
 	)
 	(label "QSPI_SD2"
 		(at 152.4 132.08 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11422,6 +11855,7 @@
 	)
 	(label "FLASH_SS"
 		(at 41.91 125.095 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11432,6 +11866,7 @@
 	)
 	(label "VREG_LX"
 		(at 152.4 113.03 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11442,6 +11877,7 @@
 	)
 	(label "GPIO6"
 		(at 250.19 127 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11452,6 +11888,7 @@
 	)
 	(label "GPIO42_ADC2"
 		(at 250.19 220.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11462,6 +11899,7 @@
 	)
 	(label "GPIO24"
 		(at 351.79 184.15 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11472,6 +11910,7 @@
 	)
 	(label "GPIO31"
 		(at 250.19 190.5 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11482,6 +11921,7 @@
 	)
 	(label "USB_D-"
 		(at 267.97 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11492,6 +11932,7 @@
 	)
 	(label "GPIO10"
 		(at 250.19 137.16 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11502,6 +11943,7 @@
 	)
 	(label "QSPI_SCLK"
 		(at 45.085 220.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11512,6 +11954,7 @@
 	)
 	(label "GPIO6"
 		(at 351.79 138.43 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11522,6 +11965,7 @@
 	)
 	(label "GPIO28"
 		(at 250.19 182.88 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11532,6 +11976,7 @@
 	)
 	(label "GPIO0"
 		(at 250.19 111.76 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11542,6 +11987,7 @@
 	)
 	(label "USB_D-"
 		(at 54.61 44.45 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11552,6 +11998,7 @@
 	)
 	(label "QSPI_SD1"
 		(at 95.25 215.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11562,6 +12009,7 @@
 	)
 	(label "GPIO14"
 		(at 250.19 147.32 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11572,6 +12020,7 @@
 	)
 	(label "VREG_AVDD"
 		(at 154.305 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11582,6 +12031,7 @@
 	)
 	(label "GPIO23"
 		(at 250.19 170.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11592,6 +12042,7 @@
 	)
 	(label "GPIO15"
 		(at 250.19 149.86 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11602,6 +12053,7 @@
 	)
 	(label "GPIO9"
 		(at 250.19 134.62 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11612,6 +12064,7 @@
 	)
 	(label "GPIO18"
 		(at 351.79 168.91 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11622,6 +12075,7 @@
 	)
 	(label "GPIO0"
 		(at 351.79 123.19 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11632,6 +12086,7 @@
 	)
 	(label "GPIO27"
 		(at 250.19 180.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11642,6 +12097,7 @@
 	)
 	(label "GPIO23"
 		(at 351.79 181.61 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11652,6 +12108,7 @@
 	)
 	(label "QSPI_SD1"
 		(at 152.4 129.54 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11662,6 +12119,7 @@
 	)
 	(label "GPIO42_ADC2"
 		(at 370.84 133.35 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11672,6 +12130,7 @@
 	)
 	(label "GPIO29"
 		(at 370.84 166.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11682,6 +12141,7 @@
 	)
 	(label "GPIO44_ADC4"
 		(at 250.19 226.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11692,6 +12152,7 @@
 	)
 	(label "SWCLK"
 		(at 317.5 214.63 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11702,6 +12163,7 @@
 	)
 	(label "GPIO4"
 		(at 351.79 133.35 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11712,6 +12174,7 @@
 	)
 	(label "GPIO30"
 		(at 250.19 187.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11722,6 +12185,7 @@
 	)
 	(label "QSPI_SD3"
 		(at 95.25 223.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11732,6 +12196,7 @@
 	)
 	(label "QSPI_SCLK"
 		(at 152.4 138.43 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11742,6 +12207,7 @@
 	)
 	(label "QSPI_SCLK"
 		(at 42.545 130.175 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11752,6 +12218,7 @@
 	)
 	(label "GPIO13"
 		(at 351.79 156.21 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11762,6 +12229,7 @@
 	)
 	(label "GPIO34"
 		(at 250.19 198.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11772,6 +12240,7 @@
 	)
 	(label "GPIO27"
 		(at 370.84 179.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11782,6 +12251,7 @@
 	)
 	(label "USB_D+"
 		(at 54.61 49.53 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11792,6 +12262,7 @@
 	)
 	(label "GPIO2"
 		(at 351.79 128.27 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11802,6 +12273,7 @@
 	)
 	(label "GPIO22"
 		(at 250.19 167.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11812,6 +12284,7 @@
 	)
 	(label "GPIO26"
 		(at 370.84 181.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11822,6 +12295,7 @@
 	)
 	(label "GPIO14"
 		(at 351.79 158.75 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11832,6 +12306,7 @@
 	)
 	(label "GPIO46_ADC6"
 		(at 250.19 231.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11842,6 +12317,7 @@
 	)
 	(label "GPIO0"
 		(at 21.59 215.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11852,6 +12328,7 @@
 	)
 	(label "GPIO47_ADC7"
 		(at 370.84 120.65 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11862,6 +12339,7 @@
 	)
 	(label "GPIO11"
 		(at 250.19 139.7 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11872,6 +12350,7 @@
 	)
 	(label "GPIO16"
 		(at 351.79 163.83 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11882,6 +12361,7 @@
 	)
 	(label "QSPI_SD1"
 		(at 92.71 125.095 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11892,6 +12372,7 @@
 	)
 	(label "SWD"
 		(at 152.4 179.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11902,6 +12383,7 @@
 	)
 	(label "GPIO9"
 		(at 351.79 146.05 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11912,6 +12394,7 @@
 	)
 	(label "GPIO41_ADC1"
 		(at 370.84 135.89 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11922,6 +12405,7 @@
 	)
 	(label "GPIO24"
 		(at 250.19 172.72 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11932,6 +12416,7 @@
 	)
 	(label "GPIO4"
 		(at 250.19 121.92 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11942,6 +12427,7 @@
 	)
 	(label "GPIO5"
 		(at 351.79 135.89 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11952,6 +12438,7 @@
 	)
 	(label "QSPI_SD3"
 		(at 152.4 134.62 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11962,6 +12449,7 @@
 	)
 	(label "GPIO19"
 		(at 250.19 160.02 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11972,6 +12460,7 @@
 	)
 	(label "GPIO26"
 		(at 250.19 177.8 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11982,6 +12471,7 @@
 	)
 	(label "GPIO22"
 		(at 351.79 179.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11992,6 +12482,7 @@
 	)
 	(label "GPIO30"
 		(at 370.84 163.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15630,7 +16121,7 @@
 			(uuid "73709387-48c7-4a6a-9475-2e3a4af55466")
 		)
 		(instances
-			(project ""
+			(project "RP2350_80QFN_minimal"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
 					(reference "J5")
 					(unit 1)
@@ -16439,6 +16930,86 @@
 			(project "RP2350_80QFN_minimal"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_B_Micro")
+		(at 64.77 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75ed4434-1d42-4fd3-ade1-54c72818367e")
+		(property "Reference" "J1"
+			(at 64.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_B_Micro"
+			(at 64.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Micro Type B connector"
+			(at 64.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "9a910d74-f779-4226-8987-f02bc981f230")
+		)
+		(pin "2"
+			(uuid "c4adb289-6e54-4ddf-b1e6-3c4e2f1389d6")
+		)
+		(pin "3"
+			(uuid "571efa09-01b9-4080-9a4e-b962c5c852e3")
+		)
+		(pin "6"
+			(uuid "0c79b598-3cbd-4d8a-8eb8-7faee8513ec1")
+		)
+		(pin "5"
+			(uuid "ea8edd33-7095-4331-914a-ac790359c641")
+		)
+		(pin "1"
+			(uuid "ec61a4e1-43df-4b63-8c9a-123f927f20c5")
+		)
+		(instances
+			(project "RP2350_80QFN_minimal"
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
+					(reference "J1")
 					(unit 1)
 				)
 			)
