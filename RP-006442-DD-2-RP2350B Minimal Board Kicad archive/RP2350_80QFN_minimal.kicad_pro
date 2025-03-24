@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.15
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -640,6 +640,10 @@
     [
       "94683f5c-9cd9-448e-be96-9792537b5cb8",
       "Root"
+    ],
+    [
+      "d9764033-4a4d-4e32-b4ec-d607be2f0d91",
+      "debug-probe-circuit"
     ]
   ],
   "text_variables": {}
