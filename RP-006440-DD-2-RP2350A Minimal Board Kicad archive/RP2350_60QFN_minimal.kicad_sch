@@ -8895,6 +8895,16 @@
 		)
 		(uuid "16f665e0-7524-43f5-97ef-5b36e17a76c0")
 	)
+	(text "according to USB Type-C Specification Release 1.3.\n5.1K ohm resistor to ground on CC1/2 for Sink Termination"
+		(exclude_from_sim no)
+		(at 96.52 55.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "16f9941d-b0b6-4bbf-b9da-1f255b3abf80")
+	)
 	(text "IOs"
 		(exclude_from_sim no)
 		(at 347.98 110.49 0)

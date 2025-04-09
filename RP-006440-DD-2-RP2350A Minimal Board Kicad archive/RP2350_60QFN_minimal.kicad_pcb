@@ -7612,7 +7612,7 @@
 		(descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
 		(tags "usb usb-c 2.0 pd")
 		(property "Reference" "J1"
-			(at 0 -5.645 360)
+			(at 0 -5.645 0)
 			(layer "F.SilkS")
 			(uuid "2b117a43-2e26-4a8d-ab10-dda0cf1433c2")
 			(effects
@@ -7623,7 +7623,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 0 5.1 360)
+			(at 0 5.1 0)
 			(layer "F.Fab")
 			(uuid "f728c434-a805-41ed-bb70-8a8670a427bc")
 			(effects
@@ -7808,7 +7808,7 @@
 			(uuid "e43a05b8-d8fc-4f5b-b8f8-714c929b097e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "bfaf6f0f-0a43-4475-a490-77f32bae3c77")
 			(effects
@@ -12916,30 +12916,6 @@
 		(uuid "f806c3d2-86f5-461e-9074-0b9fd8e45b7d")
 	)
 	(segment
-		(start 100 76)
-		(end 101.28 76)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "16156785-71fe-4441-8ea5-5ca05324e437")
-	)
-	(segment
-		(start 102.95 77.67)
-		(end 102.95 78.445)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "1d963b8d-9e05-4e60-b5ec-70d799ab8da7")
-	)
-	(segment
-		(start 98.05 78.445)
-		(end 98.05 77.585305)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "2a17b407-b4df-485b-ad2d-25bd65bdf330")
-	)
-	(segment
 		(start 102.95 79.95)
 		(end 103.5 80.5)
 		(width 0.3)
@@ -12948,20 +12924,20 @@
 		(uuid "31b6ed22-00b3-4989-b927-50ee3038500b")
 	)
 	(segment
-		(start 99 77)
-		(end 100 76)
+		(start 102.95 77.67)
+		(end 102.95 78.445)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "47d68d6e-a618-4603-aae2-5e401e9c0fc2")
+		(uuid "96ab1a83-f040-4ae7-989b-426f0152cd8e")
 	)
 	(segment
-		(start 98.635305 77)
-		(end 99 77)
+		(start 99.72 76)
+		(end 101.28 76)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "515cb99f-6592-4cf6-9323-819c4aa7687d")
+		(uuid "a6c48b80-da31-48a2-a5ad-2517f947c337")
 	)
 	(segment
 		(start 102.95 78.445)
@@ -12977,15 +12953,23 @@
 		(width 0.3)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "b46d588c-6037-4e38-bbaf-6eddaa799391")
+		(uuid "c1f33ce6-6a22-401d-a4fb-cb31ccfe8b96")
 	)
 	(segment
-		(start 98.05 77.585305)
-		(end 98.635305 77)
+		(start 98.05 78.445)
+		(end 98.05 77.67)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "d05949ff-b795-4733-a886-31b79cfe8739")
+		(uuid "c67c9b00-ef85-4a68-ab0a-d6c0c2cf00cb")
+	)
+	(segment
+		(start 98.05 77.67)
+		(end 99.72 76)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "e39f366b-3441-460a-8a2b-218666828709")
 	)
 	(segment
 		(start 99.2 105.4)
