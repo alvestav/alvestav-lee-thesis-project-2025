@@ -1826,213 +1826,6 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic_MountingPin:Conn_01x03_MountingPin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_MountingPin"
-				(at 1.27 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_MountingPin_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.572) (xy 1.016 -4.572)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Mounting"
-					(at 0 -4.191 0)
-					(effects
-						(font
-							(size 0.381 0.381)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 3.048)
-					(name "MountPin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -5029,12 +4822,6 @@
 		)
 	)
 	(junction
-		(at 320.675 207.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0526969f-f8b4-4610-a2aa-60502b3827fc")
-	)
-	(junction
 		(at 257.81 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5642,16 +5429,6 @@
 	)
 	(wire
 		(pts
-			(xy 320.675 198.12) (xy 320.675 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "058de15f-9eff-4c08-89cd-d24f9d37ec01")
-	)
-	(wire
-		(pts
 			(xy 71.12 34.29) (xy 58.42 34.29)
 		)
 		(stroke
@@ -5842,7 +5619,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 111.76) (xy 245.11 111.76)
+			(xy 229.87 111.76) (xy 250.19 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5952,7 +5729,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 176.53) (xy 152.4 176.53)
+			(xy 166.37 176.53) (xy 138.43 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6532,7 +6309,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 114.3) (xy 245.11 114.3)
+			(xy 229.87 114.3) (xy 255.27 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6599,16 +6376,6 @@
 			(type default)
 		)
 		(uuid "57f0dca7-1937-4b1b-a1bc-b53a40c33a83")
-	)
-	(wire
-		(pts
-			(xy 327.66 205.74) (xy 327.66 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a7c09be-bec6-4c01-8322-2450ad0a97de")
 	)
 	(wire
 		(pts
@@ -6739,16 +6506,6 @@
 			(type default)
 		)
 		(uuid "61198e49-8dce-4849-9db5-a3855bb47660")
-	)
-	(wire
-		(pts
-			(xy 309.88 200.66) (xy 322.58 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6169e5b9-bf1b-4fdc-9b7f-601e7f73e59c")
 	)
 	(wire
 		(pts
@@ -7542,6 +7299,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 179.07) (xy 166.37 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9485a047-5ac1-4f82-8679-920d5d6165b0")
+	)
+	(wire
+		(pts
 			(xy 269.24 62.23) (xy 269.24 60.96)
 		)
 		(stroke
@@ -7792,16 +7559,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 179.07) (xy 152.4 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abc1c384-52dd-4401-a837-971169167a86")
-	)
-	(wire
-		(pts
 			(xy 58.42 41.91) (xy 62.23 41.91)
 		)
 		(stroke
@@ -7889,16 +7646,6 @@
 			(type default)
 		)
 		(uuid "b439a1a5-0596-4403-85b3-d3a652cc0e7f")
-	)
-	(wire
-		(pts
-			(xy 320.675 207.01) (xy 327.66 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4bc1aec-b583-4d72-b577-67a3d3c6a702")
 	)
 	(wire
 		(pts
@@ -8029,16 +7776,6 @@
 			(type default)
 		)
 		(uuid "be0958de-0355-4cb0-bc2b-5a08f84799ad")
-	)
-	(wire
-		(pts
-			(xy 309.88 195.58) (xy 322.58 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfc33485-5223-4565-b869-7a10f35a518d")
 	)
 	(wire
 		(pts
@@ -8452,16 +8189,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 198.12) (xy 320.675 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3e61005-cad5-4763-a66a-e6d7d091ac2b")
-	)
-	(wire
-		(pts
 			(xy 88.265 229.87) (xy 120.015 229.87)
 		)
 		(stroke
@@ -8712,16 +8439,6 @@
 	)
 	(wire
 		(pts
-			(xy 320.675 207.01) (xy 320.675 208.915)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2e5faca-52fc-4478-9bbd-08eaf92242d3")
-	)
-	(wire
-		(pts
 			(xy 313.69 165.1) (xy 312.42 165.1)
 		)
 		(stroke
@@ -8883,17 +8600,6 @@
 			(color 132 0 0 1)
 		)
 		(uuid 9d28a666-5d47-45e0-9afe-2ce8d485d32c)
-	)
-	(text "JST Debug Connector"
-		(exclude_from_sim no)
-		(at 321.31 191.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "16f665e0-7524-43f5-97ef-5b36e17a76c0")
 	)
 	(text "according to USB Type-C Specification Release 1.3.\n5.1K ohm resistor to ground on CC1/2 for Sink Termination"
 		(exclude_from_sim no)
@@ -9350,16 +9056,6 @@
 		)
 		(uuid "7230e557-5e70-4a7d-84bf-ce9c64251954")
 	)
-	(label "SWCLK"
-		(at 309.88 195.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "73b53835-4e3e-4b6b-8452-4a3f289023ef")
-	)
 	(label "QSPI_SD3"
 		(at 103.505 139.065 180)
 		(effects
@@ -9700,16 +9396,6 @@
 		)
 		(uuid "d7461a44-55da-4100-8dcb-7c14a57193af")
 	)
-	(label "SWD"
-		(at 309.88 200.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d9241751-32b7-4bd5-8c64-a1bc7f35f29c")
-	)
 	(label "GPIO14"
 		(at 339.09 160.02 180)
 		(effects
@@ -9889,6 +9575,50 @@
 			(justify right bottom)
 		)
 		(uuid "fa3d150b-985e-4750-9d15-0f4d34ec9da9")
+	)
+	(hierarchical_label "SWDIO"
+		(shape input)
+		(at 146.05 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1abcfbb9-d746-464e-ad57-33d2b19ae007")
+	)
+	(hierarchical_label "UART1"
+		(shape input)
+		(at 255.27 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca9c9b6a-b0c7-4795-b728-8ecbd228d54e")
+	)
+	(hierarchical_label "SWCLK"
+		(shape input)
+		(at 138.43 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1cd7aa6-136a-4aa8-83a7-51d12f01738b")
+	)
+	(hierarchical_label "UART2"
+		(shape input)
+		(at 250.19 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea2327c1-ec9f-478a-b444-8198137ce82c")
 	)
 	(symbol
 		(lib_id "Memory_Flash:W25Q128JVS")
@@ -13933,72 +13663,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 320.675 208.915 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f69d89e-53aa-42c0-81e7-337ae38642c6")
-		(property "Reference" "#PWR031"
-			(at 320.675 215.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 320.548 213.3092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.675 208.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.675 208.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 320.675 208.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6bb9438d-d795-460c-8c78-b38d1373c535")
-		)
-		(instances
-			(project "RP2350_60QFN_minimal"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 143.51 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14398,82 +14062,6 @@
 			(project "RP2350_60QFN_minimal"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
-		(at 327.66 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "884ae3bc-99eb-4fdb-b3f2-64a63d4d0125")
-		(property "Reference" "J4"
-			(at 330.2 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SM03B-SRSS-TB"
-			(at 330.2 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
-			(at 327.66 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 327.66 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 327.66 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "320b0b04-4954-488a-932d-6b0ceaebd33a")
-		)
-		(pin "2"
-			(uuid "edf17b2e-1100-4209-bd60-83f8a53be072")
-		)
-		(pin "3"
-			(uuid "8fa2ef0b-0b56-4d03-823b-80b35ad5ed67")
-		)
-		(pin "MP"
-			(uuid "f06b4a8d-0692-4752-acaf-9ea8373ce3c9")
-		)
-		(instances
-			(project "RP2350_60QFN_minimal"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -15496,6 +15084,44 @@
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
 					(reference "#PWR016")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 309.88 236.22)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4bc304b2-df22-43ce-87c2-f3d7bd8364b0")
+		(property "Sheetname" "debugprobe"
+			(at 309.88 235.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 309.88 240.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RP2350_60QFN_minimal"
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
+					(page "2")
 				)
 			)
 		)
