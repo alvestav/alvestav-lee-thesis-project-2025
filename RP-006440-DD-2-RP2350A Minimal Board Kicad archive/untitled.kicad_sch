@@ -5,6 +5,108 @@
 	(uuid "91a91bcb-686b-4056-a023-5181f276ad01")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -4552,6 +4654,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 207.01) (xy 158.75 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b4756d-7e74-494a-85b9-119397ad0481")
+	)
+	(wire
+		(pts
 			(xy 81.28 187.96) (xy 97.79 187.96)
 		)
 		(stroke
@@ -5572,6 +5684,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 204.47) (xy 158.75 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec537c9e-4e15-4c61-9255-8ba9eff81099")
+	)
+	(wire
+		(pts
 			(xy 207.01 97.79) (xy 207.01 118.11)
 		)
 		(stroke
@@ -5787,6 +5909,16 @@
 		)
 		(uuid "118091e8-3fbc-40f8-93a1-981fd271b54d")
 	)
+	(label "SWCLK"
+		(at 151.13 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "137f05f0-ed62-4b0e-a3c5-f8f6ea59ffaa")
+	)
 	(label "QSPI_SD2"
 		(at 97.79 193.04 180)
 		(effects
@@ -5836,6 +5968,16 @@
 			(justify right bottom)
 		)
 		(uuid "52452e2e-6097-4b02-b4e3-b9c917e5d05c")
+	)
+	(label "SWDIO"
+		(at 151.13 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54370208-b467-4991-a43e-32cb2ffba7ca")
 	)
 	(label "RUN"
 		(at 151.13 193.04 0)
@@ -7255,6 +7397,73 @@
 			(project "RP2350_60QFN_minimal"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/4bc304b2-df22-43ce-87c2-f3d7bd8364b0"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 255.27 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46a62194-3f71-416c-b8b0-cc469562d03d")
+		(property "Reference" "TP1"
+			(at 257.81 182.1179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 257.81 184.6579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 260.35 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 255.27 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3b7acc9-0dcb-4ddb-a22f-4cfd4b365d4b")
+		)
+		(instances
+			(project ""
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/4bc304b2-df22-43ce-87c2-f3d7bd8364b0"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
