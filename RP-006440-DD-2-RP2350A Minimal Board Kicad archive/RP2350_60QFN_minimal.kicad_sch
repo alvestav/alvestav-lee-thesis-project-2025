@@ -4364,6 +4364,139 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+1V1"
 			(power)
 			(pin_names
@@ -5619,7 +5752,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 111.76) (xy 250.19 111.76)
+			(xy 229.87 111.76) (xy 259.08 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5729,7 +5862,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 176.53) (xy 138.43 176.53)
+			(xy 166.37 176.53) (xy 152.4 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6309,7 +6442,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 114.3) (xy 255.27 114.3)
+			(xy 229.87 114.3) (xy 259.08 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7299,16 +7432,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 179.07) (xy 166.37 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9485a047-5ac1-4f82-8679-920d5d6165b0")
-	)
-	(wire
-		(pts
 			(xy 269.24 62.23) (xy 269.24 60.96)
 		)
 		(stroke
@@ -7816,6 +7939,16 @@
 			(type default)
 		)
 		(uuid "c3966dab-2fed-41f7-bd39-7594abf5aa20")
+	)
+	(wire
+		(pts
+			(xy 251.46 123.19) (xy 259.08 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4648be3-d466-4180-988f-7adbdf8270e4")
 	)
 	(wire
 		(pts
@@ -8359,6 +8492,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 179.07) (xy 166.37 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef08fe45-492d-417c-92f0-6b4b2d2e883c")
+	)
+	(wire
+		(pts
 			(xy 384.81 147.32) (xy 384.81 149.86)
 		)
 		(stroke
@@ -8587,6 +8730,16 @@
 		)
 		(uuid "febeee8b-1a71-46eb-b2d5-6edb7e949296")
 	)
+	(wire
+		(pts
+			(xy 251.46 120.65) (xy 259.08 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff61db0f-9cc9-4fe3-8648-59270eb53815")
+	)
 	(circle
 		(center 133.35 106.045)
 		(radius 0.635)
@@ -8765,6 +8918,16 @@
 			(justify right bottom)
 		)
 		(uuid "19841331-2dfb-4512-8037-0c0541480f3a")
+	)
+	(label "SWCLK"
+		(at 152.4 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "199d5a7a-f8a8-4075-b9eb-6956565b8d37")
 	)
 	(label "GPIO1"
 		(at 245.11 114.3 180)
@@ -8986,15 +9149,15 @@
 		)
 		(uuid "58739658-449f-4c3a-b66b-121630964125")
 	)
-	(label "SWCLK"
-		(at 152.4 176.53 0)
+	(label "SWD"
+		(at 251.46 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "5a7291c4-75ad-4daf-9829-37581971c580")
+		(uuid "6aa8b2aa-6481-40fa-80a9-6a7009526257")
 	)
 	(label "GPIO22"
 		(at 358.14 139.7 0)
@@ -9195,6 +9358,16 @@
 			(justify right bottom)
 		)
 		(uuid "9eadaae5-b61a-4d10-88c7-3d65ea4f6ef1")
+	)
+	(label "SWCLK"
+		(at 251.46 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ec71be7-e01a-41b0-b598-73e140c410a8")
 	)
 	(label "GPIO10"
 		(at 245.11 137.16 180)
@@ -9575,50 +9748,6 @@
 			(justify right bottom)
 		)
 		(uuid "fa3d150b-985e-4750-9d15-0f4d34ec9da9")
-	)
-	(hierarchical_label "SWDIO"
-		(shape input)
-		(at 146.05 179.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1abcfbb9-d746-464e-ad57-33d2b19ae007")
-	)
-	(hierarchical_label "UART1"
-		(shape input)
-		(at 255.27 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ca9c9b6a-b0c7-4795-b728-8ecbd228d54e")
-	)
-	(hierarchical_label "SWCLK"
-		(shape input)
-		(at 138.43 176.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e1cd7aa6-136a-4aa8-83a7-51d12f01738b")
-	)
-	(hierarchical_label "UART2"
-		(shape input)
-		(at 250.19 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ea2327c1-ec9f-478a-b444-8198137ce82c")
 	)
 	(symbol
 		(lib_id "Memory_Flash:W25Q128JVS")
@@ -14068,6 +14197,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 165.1 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8355952b-e8bb-4751-952e-7dcfb64038d0")
+		(property "Reference" "SW5"
+			(at 165.1 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 165.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_DPDT_CK_JS202011JCQN"
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4c945f9-c97e-41e1-ba04-c5ad1b2912f1")
+		)
+		(pin "2"
+			(uuid "af8053f8-5ac9-455e-b1f4-c35ce1377545")
+		)
+		(instances
+			(project ""
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 82.55 39.37 0)
@@ -15089,8 +15286,8 @@
 		)
 	)
 	(sheet
-		(at 309.88 236.22)
-		(size 12.7 3.81)
+		(at 259.08 110.49)
+		(size 12.7 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -15101,7 +15298,7 @@
 		)
 		(uuid "4bc304b2-df22-43ce-87c2-f3d7bd8364b0")
 		(property "Sheetname" "debugprobe"
-			(at 309.88 235.5084 0)
+			(at 259.08 109.7784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15110,13 +15307,53 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 309.88 240.6146 0)
+			(at 259.08 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "SWCLK" input
+			(at 259.08 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "91de4191-2d6b-46c5-83e5-f73577bf57e8")
+		)
+		(pin "SWDIO" input
+			(at 259.08 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dc8b21b7-1df2-45df-b32f-5955e1d2ca67")
+		)
+		(pin "UART1" input
+			(at 259.08 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f57a4343-7357-4801-94c8-848faf2cd32f")
+		)
+		(pin "UART2" input
+			(at 259.08 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "19d570b2-b0a7-4009-8934-687c3ab8a788")
 		)
 		(instances
 			(project "RP2350_60QFN_minimal"

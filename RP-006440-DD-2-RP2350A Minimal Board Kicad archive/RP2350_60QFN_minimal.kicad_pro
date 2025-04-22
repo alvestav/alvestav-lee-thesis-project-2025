@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.15
+          "min_clearance": 0.14
         }
       },
       "diff_pair_dimensions": [
@@ -508,6 +508,14 @@
       {
         "netclass": "USB_DIFF_90",
         "pattern": "/USB_D-"
+      },
+      {
+        "netclass": "USB_DIFF_90",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "USB_DIFF_90",
+        "pattern": "/SWCLK"
       }
     ]
   },
