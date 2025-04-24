@@ -7588,7 +7588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46a62194-3f71-416c-b8b0-cc469562d03d")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 127 25.9079 0)
 			(effects
 				(font
@@ -7635,6 +7635,14 @@
 		)
 		(pin "1"
 			(uuid "7c54db32-3e4f-42a4-82be-931f3bd3f7f6")
+		)
+		(instances
+			(project "RP2350_60QFN_minimal"
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/4bc304b2-df22-43ce-87c2-f3d7bd8364b0"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
