@@ -643,7 +643,11 @@
     ],
     [
       "500e1af8-c8c5-44c6-9fbe-f4d5e5ab4ca8",
-      "debugprobe"
+      "Debug probe"
+    ],
+    [
+      "09473c75-4602-45fc-a2db-44d591bf96bf",
+      "Hex displays peripheral"
     ]
   ],
   "text_variables": {}
