@@ -18457,6 +18457,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 271.78 157.48)
+		(size 20.32 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ba1de432-0703-49aa-92c9-1bafe9390a02")
+		(property "Sheetname" "Input buttons"
+			(at 271.78 156.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buttons.kicad_sch"
+			(at 271.78 174.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RP2350_80QFN_minimal"
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

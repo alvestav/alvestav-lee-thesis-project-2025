@@ -648,6 +648,10 @@
     [
       "09473c75-4602-45fc-a2db-44d591bf96bf",
       "Hex displays peripheral"
+    ],
+    [
+      "ba1de432-0703-49aa-92c9-1bafe9390a02",
+      "Input buttons"
     ]
   ],
   "text_variables": {}
