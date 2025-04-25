@@ -2300,216 +2300,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic_MountingPin:Conn_01x03_MountingPin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_MountingPin"
-				(at 1.27 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_MountingPin_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.572) (xy 1.016 -4.572)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Mounting"
-					(at 0 -4.191 0)
-					(effects
-						(font
-							(size 0.381 0.381)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 3.048)
-					(name "MountPin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -5858,16 +5648,15 @@
 		)
 		(uuid "7079d14d-ebaf-4eb3-b264-7a4faf0b923e")
 	)
-	(text "JST Debug Connector"
+	(text "100n"
 		(exclude_from_sim no)
-		(at 328.93 210.82 0)
+		(at 84.328 169.418 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
-		(uuid "915a48c1-0b1a-4de1-95ff-31db1c95d8e5")
+		(uuid "944888ec-99a9-4393-a885-734ead1261d8")
 	)
 	(text "Make sure R7 and R8 are close to RP2350\n"
 		(exclude_from_sim no)
@@ -5901,6 +5690,16 @@
 			(justify left bottom)
 		)
 		(uuid "e5bd2e22-a554-4369-9101-d3953beb02df")
+	)
+	(text "to use secondary memory populate R11 with (0 ohm) and R13 with (10k ohm)"
+		(exclude_from_sim no)
+		(at 65.278 208.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f376622f-aa73-4610-bb36-a5fec445e5e3")
 	)
 	(junction
 		(at 119.38 115.57)
@@ -6515,12 +6314,6 @@
 		(uuid "f1b82a39-7aba-4650-a7b8-0112610fab01")
 	)
 	(junction
-		(at 328.295 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f49a0b0c-8da0-4bfd-97d2-eda695dca6c1")
-	)
-	(junction
 		(at 325.12 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6703,16 +6496,6 @@
 			(type default)
 		)
 		(uuid "07cf75cb-6d2f-4b73-b257-65acc07ee7b5")
-	)
-	(wire
-		(pts
-			(xy 330.2 217.17) (xy 328.295 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0854332f-c93b-4f76-9855-e749506a5bb3")
 	)
 	(wire
 		(pts
@@ -7326,16 +7109,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.295 226.06) (xy 328.295 227.965)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "300ec504-c058-4b15-94ee-fcd4a9e364ef")
-	)
-	(wire
-		(pts
 			(xy 397.51 166.37) (xy 397.51 168.91)
 		)
 		(stroke
@@ -7863,6 +7636,16 @@
 			(type default)
 		)
 		(uuid "506253ec-dda8-425b-92c9-ddd2289e6baa")
+	)
+	(wire
+		(pts
+			(xy 273.05 198.12) (xy 281.94 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5103bf3e-40dc-493a-9d92-8d9460965176")
 	)
 	(wire
 		(pts
@@ -8936,13 +8719,13 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 224.79) (xy 335.28 226.06)
+			(xy 273.05 203.2) (xy 281.94 203.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9689e2af-d332-4425-b1a3-908b6db9bb37")
+		(uuid "9675cdf5-e4b8-482e-98fc-283e252d2fc7")
 	)
 	(wire
 		(pts
@@ -9226,16 +9009,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.295 217.17) (xy 328.295 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ace3046c-d49e-4e3c-9083-d8fd9d3b9e66")
-	)
-	(wire
-		(pts
 			(xy 397.51 133.35) (xy 397.51 135.89)
 		)
 		(stroke
@@ -9346,16 +9119,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 214.63) (xy 330.2 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2353ebb-f9f2-46b3-84dd-a3518e72d62d")
-	)
-	(wire
-		(pts
 			(xy 68.58 162.56) (xy 68.58 163.83)
 		)
 		(stroke
@@ -9453,16 +9216,6 @@
 			(type default)
 		)
 		(uuid "b7b5bd07-4f2f-4a48-9684-8fc566cf7e25")
-	)
-	(wire
-		(pts
-			(xy 328.295 226.06) (xy 335.28 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b80698f6-d702-491d-936f-3eb182cf9f3f")
 	)
 	(wire
 		(pts
@@ -10016,6 +9769,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 195.58) (xy 281.94 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8601117-db3d-43ac-a13f-fee3db926e4e")
+	)
+	(wire
+		(pts
 			(xy 351.79 125.73) (xy 339.09 125.73)
 		)
 		(stroke
@@ -10286,16 +10049,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 219.71) (xy 330.2 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6271344-4b06-46ed-9345-07727549bd14")
-	)
-	(wire
-		(pts
 			(xy 21.59 78.74) (xy 21.59 80.01)
 		)
 		(stroke
@@ -10513,6 +10266,16 @@
 			(type default)
 		)
 		(uuid "ef5f44cd-4590-48ef-8151-afe4aed3bd5f")
+	)
+	(wire
+		(pts
+			(xy 273.05 205.74) (xy 281.94 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef7d5594-9875-4bd2-b87b-4d735388d371")
 	)
 	(wire
 		(pts
@@ -11154,6 +10917,16 @@
 		)
 		(uuid "4158695e-7eb1-4b22-8c0c-d730d05c4ac2")
 	)
+	(label "GPIO0"
+		(at 273.05 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "416e7f1b-1744-458b-8c21-cb93b0707597")
+	)
 	(label "GPIO13"
 		(at 250.19 144.78 180)
 		(effects
@@ -11233,16 +11006,6 @@
 			(justify right bottom)
 		)
 		(uuid "4fe68c31-0c2f-44ff-9165-222589ba3a52")
-	)
-	(label "SWD"
-		(at 317.5 219.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "51618c63-65b9-4af1-8ac2-bf35e938372c")
 	)
 	(label "QSPI_SD0"
 		(at 152.4 127 0)
@@ -11654,6 +11417,16 @@
 		)
 		(uuid "978ee7f4-8219-46d2-a254-13a957da1934")
 	)
+	(label "GPIO1"
+		(at 273.05 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "998cc907-2717-49df-95ce-1f92f86d3703")
+	)
 	(label "USB_D-"
 		(at 267.97 104.14 180)
 		(effects
@@ -11694,6 +11467,16 @@
 		)
 		(uuid "9b621da0-799c-43b0-9390-28bb1f2b8785")
 	)
+	(label "SWCLK"
+		(at 273.05 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c248e0a-5f94-4a20-b7eb-e6d3206257f3")
+	)
 	(label "GPIO28"
 		(at 250.19 182.88 180)
 		(effects
@@ -11713,6 +11496,16 @@
 			(justify right bottom)
 		)
 		(uuid "9cd2f5e3-8f7e-4d1c-9195-683b1bee4dce")
+	)
+	(label "SWD"
+		(at 273.05 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9db720e9-3d25-4bea-9760-1ed997e77d74")
 	)
 	(label "QSPI_SD1"
 		(at 93.98 184.15 180)
@@ -11863,16 +11656,6 @@
 			(justify right bottom)
 		)
 		(uuid "beb06681-6bb9-41ac-a39a-a4597d069e24")
-	)
-	(label "SWCLK"
-		(at 317.5 214.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bfb9900d-6ab4-4435-b812-4b50c16cb3ef")
 	)
 	(label "GPIO4"
 		(at 351.79 133.35 180)
@@ -16207,72 +15990,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 328.295 227.965 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "476f894c-2af7-4229-9c29-d211070cda0e")
-		(property "Reference" "#PWR032"
-			(at 328.295 234.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 328.168 232.3592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 328.295 227.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 328.295 227.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 328.295 227.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5f657dc-11d1-4472-85a4-923e0206bd5b")
-		)
-		(instances
-			(project "RP2350_80QFN_minimal"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 74.93 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17295,82 +17012,6 @@
 			(project "RP2350_80QFN_minimal"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
-		(at 335.28 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4508228-dd38-46fa-aa5e-3f08d93631a1")
-		(property "Reference" "J4"
-			(at 337.82 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SM03B-SRSS-TB"
-			(at 337.82 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
-			(at 335.28 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 335.28 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 335.28 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d8b722b-ed3f-4122-ad8e-50b039360074")
-		)
-		(pin "2"
-			(uuid "e942d04c-9d09-41ef-a567-1de73700fe11")
-		)
-		(pin "3"
-			(uuid "c1cabaa8-e726-4ca6-a590-4b784af2d750")
-		)
-		(pin "MP"
-			(uuid "e2da30e3-9f29-4b8d-a79b-4bbb3bb493c6")
-		)
-		(instances
-			(project "RP2350_80QFN_minimal"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -18469,7 +18110,7 @@
 	)
 	(sheet
 		(at 281.94 191.77)
-		(size 25.4 20.32)
+		(size 12.7 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -18493,7 +18134,7 @@
 			)
 		)
 		(property "Sheetfile" "debugprobe.kicad_sch"
-			(at 281.94 212.6746 0)
+			(at 281.94 211.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
