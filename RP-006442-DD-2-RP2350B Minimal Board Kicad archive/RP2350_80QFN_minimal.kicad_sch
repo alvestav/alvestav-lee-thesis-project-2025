@@ -9016,7 +9016,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 148.59) (xy 303.53 151.13)
+			(xy 303.53 119.38) (xy 303.53 121.92)
 		)
 		(stroke
 			(width 0)
@@ -10516,7 +10516,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 158.75) (xy 303.53 160.02)
+			(xy 303.53 129.54) (xy 303.53 130.81)
 		)
 		(stroke
 			(width 0)
@@ -14458,7 +14458,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 303.53 148.59 0)
+		(at 303.53 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14466,7 +14466,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f1af967")
 		(property "Reference" "#PWR023"
-			(at 303.53 152.4 0)
+			(at 303.53 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14475,7 +14475,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 303.911 144.1958 0)
+			(at 303.911 114.9858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14483,7 +14483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 303.53 148.59 0)
+			(at 303.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14492,7 +14492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 148.59 0)
+			(at 303.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14501,7 +14501,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 303.53 148.59 0)
+			(at 303.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14523,7 +14523,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 303.53 154.94 0)
+		(at 303.53 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14531,7 +14531,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f1af96d")
 		(property "Reference" "C19"
-			(at 306.451 153.7716 0)
+			(at 306.451 124.5616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14540,7 +14540,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 306.451 156.083 0)
+			(at 306.451 126.873 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14549,7 +14549,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 304.4952 158.75 0)
+			(at 304.4952 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14558,7 +14558,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 303.53 154.94 0)
+			(at 303.53 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14567,7 +14567,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 303.53 154.94 0)
+			(at 303.53 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14592,7 +14592,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 303.53 160.02 0)
+		(at 303.53 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14600,7 +14600,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f1af973")
 		(property "Reference" "#PWR024"
-			(at 303.53 166.37 0)
+			(at 303.53 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14609,7 +14609,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 299.72 161.29 0)
+			(at 299.72 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14617,7 +14617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 303.53 160.02 0)
+			(at 303.53 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14626,7 +14626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 160.02 0)
+			(at 303.53 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14635,7 +14635,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 303.53 160.02 0)
+			(at 303.53 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18468,7 +18468,7 @@
 		)
 	)
 	(sheet
-		(at 273.05 193.04)
+		(at 281.94 191.77)
 		(size 25.4 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18484,7 +18484,7 @@
 		)
 		(uuid "500e1af8-c8c5-44c6-9fbe-f4d5e5ab4ca8")
 		(property "Sheetname" "Debug probe"
-			(at 273.05 192.3284 0)
+			(at 281.94 191.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18493,12 +18493,52 @@
 			)
 		)
 		(property "Sheetfile" "debugprobe.kicad_sch"
-			(at 273.05 213.9446 0)
+			(at 281.94 212.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SWCLK" input
+			(at 281.94 195.58 180)
+			(uuid "ce201448-8a53-4a49-adab-5ec07cc2862d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" input
+			(at 281.94 198.12 180)
+			(uuid "d1ae331e-7eaf-4303-8197-df5e68bd4509")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART0" input
+			(at 281.94 203.2 180)
+			(uuid "dd4cd9df-5425-4d36-a1bd-b7e7719d31dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART1" input
+			(at 281.94 205.74 180)
+			(uuid "640bd0fb-de8d-485d-a662-aa6bc2996ec5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
