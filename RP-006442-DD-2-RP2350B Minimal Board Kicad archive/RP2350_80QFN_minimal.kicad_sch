@@ -18100,6 +18100,36 @@
 				(justify left top)
 			)
 		)
+		(pin "SCL" input
+			(at 271.78 231.14 180)
+			(uuid "8e09251f-3ede-401c-b0f9-6a39c6eda9b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 271.78 234.95 180)
+			(uuid "718a25fb-8733-4770-bcd7-3ef9f051e458")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 271.78 240.03 180)
+			(uuid "ff7ee285-3d99-4d66-98fb-71ab35dde1fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "RP2350_80QFN_minimal"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
