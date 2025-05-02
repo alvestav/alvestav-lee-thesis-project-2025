@@ -5827,7 +5827,7 @@
 	)
 	(text "SPI signals:\nDS - data signal, RPi spi Tx\nSHCP - shift register clock signal, RPi spi SCK\nSTCP - storage register clock signal\nMR - master reset\nOE - output enable"
 		(exclude_from_sim no)
-		(at 333.502 188.976 0)
+		(at 330.708 184.912 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5835,6 +5835,16 @@
 			(justify left)
 		)
 		(uuid "a7ce80ec-e890-4537-bcb8-8e77aed29a87")
+	)
+	(text "Output Enable is inverted, high disables output, low enables output"
+		(exclude_from_sim no)
+		(at 363.982 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b5b11b3e-874c-4bdb-b77b-a84fd23406c1")
 	)
 	(text "GPIO37, use for PWM signal"
 		(exclude_from_sim no)
