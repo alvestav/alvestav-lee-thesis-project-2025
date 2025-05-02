@@ -106,7 +106,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -24739,7 +24738,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "92.0000 mm"
+		(gr_text "92,0000 mm"
 			(at 120 61.2 0)
 			(layer "Cmts.User")
 			(uuid "39e0d0bc-e9b2-467e-b66a-d888e7e6ece1")
@@ -24776,7 +24775,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "50.3000 mm"
+		(gr_text "50,3000 mm"
 			(at 106.12 170.29 0)
 			(layer "Cmts.User")
 			(uuid "4b8320e4-3517-4ef8-aade-1a3f8e939612")
@@ -24813,7 +24812,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "19.0000 mm"
+		(gr_text "19,0000 mm"
 			(at 83.85 155.87 90)
 			(layer "Cmts.User")
 			(uuid "7f1ccc63-2056-43a9-b5b4-a349ebfb798e")
@@ -24850,7 +24849,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "15.2400 mm"
+		(gr_text "15,2400 mm"
 			(at 95.46 155.87 90)
 			(layer "Cmts.User")
 			(uuid "a53a2eac-7317-4417-a786-cbd299d0e578")
@@ -24887,7 +24886,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "12.7000 mm"
+		(gr_text "12,7000 mm"
 			(at 106.12 160.16 0)
 			(layer "Cmts.User")
 			(uuid "bc9d903e-e0e5-46f1-a5e9-a0286e1215f0")
@@ -24924,7 +24923,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "98.0000 mm"
+		(gr_text "98,0000 mm"
 			(at 58.2 119 90)
 			(layer "Cmts.User")
 			(uuid "cc92e35f-d1ca-414a-93ef-c326dad7f843")

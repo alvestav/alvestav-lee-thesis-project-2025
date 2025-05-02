@@ -10797,7 +10797,7 @@
 		)
 		(uuid "09a9aaa1-f072-42de-97ae-5a74a61bd1fb")
 	)
-	(label "GPIO11"
+	(label "GPIO12"
 		(at 160.02 245.11 180)
 		(effects
 			(font
@@ -10867,7 +10867,7 @@
 		)
 		(uuid "19743f36-e9a6-4e99-a337-4623b7a936ee")
 	)
-	(label "GPIO7"
+	(label "GPIO9"
 		(at 114.3 271.78 0)
 		(effects
 			(font
@@ -10937,7 +10937,7 @@
 		)
 		(uuid "22c7c1f4-4a59-4db0-baba-3987006fbf4e")
 	)
-	(label "GPIO2"
+	(label "GPIO4"
 		(at 114.3 252.73 0)
 		(effects
 			(font
@@ -11067,7 +11067,7 @@
 		)
 		(uuid "365c84c1-8bdb-40e5-9011-fe1ff0cea07f")
 	)
-	(label "GPIO12"
+	(label "GPIO13"
 		(at 160.02 248.92 180)
 		(effects
 			(font
@@ -11157,7 +11157,7 @@
 		)
 		(uuid "45b45e57-9eda-4426-b9c6-1f35ca2184e2")
 	)
-	(label "GPIO15"
+	(label "GPIO16"
 		(at 160.02 260.35 180)
 		(effects
 			(font
@@ -11167,7 +11167,7 @@
 		)
 		(uuid "46c9805d-39eb-494a-b2c6-90edca42f538")
 	)
-	(label "GPIO0"
+	(label "GPIO2"
 		(at 114.3 245.11 0)
 		(effects
 			(font
@@ -11307,7 +11307,7 @@
 		)
 		(uuid "5ba1abe0-76f0-4b50-b9a0-a5539cb5076b")
 	)
-	(label "GPIO5"
+	(label "GPIO7"
 		(at 114.3 264.16 0)
 		(effects
 			(font
@@ -11497,7 +11497,7 @@
 		)
 		(uuid "7fe5167d-a689-4050-bf2f-55bc0e50d57b")
 	)
-	(label "GPIO3"
+	(label "GPIO5"
 		(at 114.3 256.54 0)
 		(effects
 			(font
@@ -11517,7 +11517,7 @@
 		)
 		(uuid "80abb338-881c-4aee-a7b6-b135ba233816")
 	)
-	(label "GPIO14"
+	(label "GPIO15"
 		(at 160.02 256.54 180)
 		(effects
 			(font
@@ -11787,7 +11787,7 @@
 		)
 		(uuid "a6eddab9-a022-48ac-ab9a-b4a054324467")
 	)
-	(label "GPIO9"
+	(label "GPIO11"
 		(at 114.3 279.4 0)
 		(effects
 			(font
@@ -11807,7 +11807,7 @@
 		)
 		(uuid "a854e576-5a9d-49a4-83cd-b4f0e0323b82")
 	)
-	(label "GPIO13"
+	(label "GPIO14"
 		(at 160.02 252.73 180)
 		(effects
 			(font
@@ -11907,7 +11907,7 @@
 		)
 		(uuid "bb2e4e7f-d452-4ea2-8a10-299c744455cf")
 	)
-	(label "GPIO1"
+	(label "GPIO3"
 		(at 114.3 248.92 0)
 		(effects
 			(font
@@ -11977,7 +11977,7 @@
 		)
 		(uuid "c3575c80-305d-49c4-a879-2880ab624df7")
 	)
-	(label "GPIO6"
+	(label "GPIO8"
 		(at 114.3 267.97 0)
 		(effects
 			(font
@@ -12017,7 +12017,7 @@
 		)
 		(uuid "ca6a634d-2690-43d3-abeb-ac2f1482bada")
 	)
-	(label "GPIO4"
+	(label "GPIO6"
 		(at 114.3 260.35 0)
 		(effects
 			(font
@@ -12037,7 +12037,7 @@
 		)
 		(uuid "ccaea42f-9569-47d0-b561-dd7d5f7469bf")
 	)
-	(label "GPIO16"
+	(label "GPIO17"
 		(at 160.02 264.16 180)
 		(effects
 			(font
@@ -12067,7 +12067,7 @@
 		)
 		(uuid "dba28c50-ce38-4cf1-8bee-25c881ef1813")
 	)
-	(label "GPIO8"
+	(label "GPIO10"
 		(at 114.3 275.59 0)
 		(effects
 			(font
