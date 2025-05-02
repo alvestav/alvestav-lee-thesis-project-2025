@@ -5751,6 +5751,16 @@
 		)
 		(uuid "21824f18-1161-460e-a1b1-fc5cd04b758c")
 	)
+	(text "GPIO36, use for the storage register clock"
+		(exclude_from_sim no)
+		(at 386.08 227.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2843b145-4905-4b35-b706-f431e3917a34")
+	)
 	(text "12MHz Crystal"
 		(exclude_from_sim no)
 		(at 93.98 217.805 0)
@@ -5761,6 +5771,16 @@
 			(justify left bottom)
 		)
 		(uuid "297ba64e-e42b-4f5e-ace8-1828aa5733d4")
+	)
+	(text "GPIO35, SPI0 TX\nGPIO34, SPI0 SCK"
+		(exclude_from_sim no)
+		(at 385.572 216.662 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5843dbfa-7aca-42ab-a539-055dac485318")
 	)
 	(text "Primary Flash"
 		(exclude_from_sim no)
@@ -5805,6 +5825,27 @@
 		)
 		(uuid "a7a47f5f-e001-497c-baf8-7f8ce0c89f9b")
 	)
+	(text "SPI signals:\nDS - data signal, RPi spi Tx\nSHCP - shift register clock signal, RPi spi SCK\nSTCP - storage register clock signal\nMR - master reset\nOE - output enable"
+		(exclude_from_sim no)
+		(at 333.502 188.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7ce80ec-e890-4537-bcb8-8e77aed29a87")
+	)
+	(text "GPIO37, use for PWM signal"
+		(exclude_from_sim no)
+		(at 390.398 209.042 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d5ee6485-0553-4bac-99ee-29c43b617b5c")
+	)
 	(text "Power"
 		(exclude_from_sim no)
 		(at 73.66 27.94 0)
@@ -5825,6 +5866,16 @@
 			)
 		)
 		(uuid "f376622f-aa73-4610-bb36-a5fec445e5e3")
+	)
+	(text "GPIO38, use for reset signal\n"
+		(exclude_from_sim no)
+		(at 389.636 204.216 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f54cabe9-0fcd-47f4-af9f-f6342153cc9e")
 	)
 	(junction
 		(at 119.38 115.57)
@@ -6954,6 +7005,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 224.79) (xy 359.41 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aa1dcc0-6645-40f3-959d-ab56c2859436")
+	)
+	(wire
+		(pts
 			(xy 234.95 231.14) (xy 250.19 231.14)
 		)
 		(stroke
@@ -7811,6 +7872,16 @@
 			(type default)
 		)
 		(uuid "5464908b-d283-47bf-a207-8c7b9e007575")
+	)
+	(wire
+		(pts
+			(xy 372.11 204.47) (xy 359.41 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5464b335-019d-438f-b07b-c9e4600c79af")
 	)
 	(wire
 		(pts
@@ -9044,6 +9115,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 219.71) (xy 359.41 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a62a6337-a02d-42d8-b238-f8e05c96cb4e")
+	)
+	(wire
+		(pts
 			(xy 394.97 135.89) (xy 394.97 138.43)
 		)
 		(stroke
@@ -9351,6 +9432,16 @@
 			(type default)
 		)
 		(uuid "b8666104-5612-4639-91e9-685557e8e54d")
+	)
+	(wire
+		(pts
+			(xy 372.11 214.63) (xy 359.41 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b895f99e-df2e-4264-a2c1-8671060462d5")
 	)
 	(wire
 		(pts
@@ -9891,6 +9982,16 @@
 			(type default)
 		)
 		(uuid "d7da510a-a0f4-46cd-bf0b-67aee3861ada")
+	)
+	(wire
+		(pts
+			(xy 372.11 209.55) (xy 359.41 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7f7ff99-218b-48a6-9c30-01f560d2a512")
 	)
 	(wire
 		(pts
@@ -11162,6 +11263,16 @@
 		)
 		(uuid "554a26d3-4659-45e4-953b-5b7461e88413")
 	)
+	(label "GPIO36"
+		(at 372.11 224.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5747c4f1-b90c-4b81-b920-2bc5647728c1")
+	)
 	(label "QSPI_SD0"
 		(at 92.71 122.555 180)
 		(effects
@@ -11391,6 +11502,26 @@
 			(justify right bottom)
 		)
 		(uuid "7aaa34c8-ba07-4f7e-9b7a-bb7b640c5f7a")
+	)
+	(label "GPIO38"
+		(at 372.11 204.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e36a33d-93d0-43ac-8738-3c9368eff42c")
+	)
+	(label "GPIO35"
+		(at 372.11 214.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f1ca3c0-a902-4143-8de4-97e12c7cff7f")
 	)
 	(label "GPIO47_ADC7"
 		(at 250.19 233.68 180)
@@ -11632,6 +11763,16 @@
 		)
 		(uuid "9cd2f5e3-8f7e-4d1c-9195-683b1bee4dce")
 	)
+	(label "GPIO37"
+		(at 372.11 209.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d4ed18f-44da-4c5e-ba55-1b59030b5076")
+	)
 	(label "SWD"
 		(at 273.05 198.12 0)
 		(effects
@@ -11821,6 +11962,16 @@
 			(justify right bottom)
 		)
 		(uuid "c29f21ca-66ab-4300-b9e9-0e693b71c895")
+	)
+	(label "GPIO34"
+		(at 372.11 219.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c2b4767f-8607-4a28-831c-03e02eb19142")
 	)
 	(label "QSPI_SCLK"
 		(at 152.4 138.43 0)
