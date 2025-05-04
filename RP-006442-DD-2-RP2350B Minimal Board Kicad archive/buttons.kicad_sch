@@ -939,6 +939,12 @@
 		)
 	)
 	(junction
+		(at 100.33 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03af3453-be1a-4c5a-8352-fdc1c22366ab")
+	)
+	(junction
 		(at 143.51 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -951,10 +957,46 @@
 		(uuid "0d172868-8427-4d5c-b20d-4467f18704d3")
 	)
 	(junction
+		(at 100.33 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "133eb67e-7eb6-409d-a661-f854f70f9aa1")
+	)
+	(junction
+		(at 100.33 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42ff233d-9896-4f25-8877-f9e904d07ebc")
+	)
+	(junction
 		(at 128.27 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43fa1ea3-6f34-4061-a431-8f3deb6f1452")
+	)
+	(junction
+		(at 100.33 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d1b9106-e99a-49ce-a319-a22b84794a0b")
+	)
+	(junction
+		(at 100.33 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97bd583c-1670-497c-8d9b-2ba168f57d06")
+	)
+	(junction
+		(at 100.33 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b400c82b-81ab-4b2e-ba0e-3571ecdb2d8b")
+	)
+	(junction
+		(at 100.33 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd7af598-23d7-47c1-9334-d3c9f5aac8bf")
 	)
 	(wire
 		(pts
@@ -968,6 +1010,26 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 113.03) (xy 109.22 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1685dabf-a6d1-45b0-9aa6-7daf7883090c")
+	)
+	(wire
+		(pts
+			(xy 100.33 125.73) (xy 109.22 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d81e672-33b9-4fc3-9387-b5972f8ca1bd")
+	)
+	(wire
+		(pts
 			(xy 143.51 93.98) (xy 149.86 93.98)
 		)
 		(stroke
@@ -975,6 +1037,16 @@
 			(type default)
 		)
 		(uuid "240bcb47-cd41-499d-9a01-09a5391db665")
+	)
+	(wire
+		(pts
+			(xy 100.33 115.57) (xy 109.22 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2ec514-4483-4948-88a1-14df49ce3ae1")
 	)
 	(wire
 		(pts
@@ -988,6 +1060,36 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 118.11) (xy 109.22 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35e5c564-2dd6-4137-9c41-d9e932b1662a")
+	)
+	(wire
+		(pts
+			(xy 100.33 120.65) (xy 109.22 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377e44b7-e229-4d81-afdf-b024bdf924cc")
+	)
+	(wire
+		(pts
+			(xy 100.33 118.11) (xy 100.33 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5420ab54-53f1-4833-a870-4ffb620732c8")
+	)
+	(wire
+		(pts
 			(xy 128.27 93.98) (xy 135.89 93.98)
 		)
 		(stroke
@@ -998,6 +1100,76 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 125.73) (xy 100.33 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77234466-b201-42b4-8bea-b1ce5f82229e")
+	)
+	(wire
+		(pts
+			(xy 100.33 130.81) (xy 109.22 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ea06fca-c2f4-4d9f-97aa-483eb1c4a56f")
+	)
+	(wire
+		(pts
+			(xy 100.33 130.81) (xy 100.33 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ac8881-1324-4e76-8514-7b597f5c900e")
+	)
+	(wire
+		(pts
+			(xy 100.33 123.19) (xy 109.22 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90be0add-ce68-4c8d-97a3-84230db96522")
+	)
+	(wire
+		(pts
+			(xy 100.33 128.27) (xy 100.33 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0dab27f-f790-4e5b-858a-7033fab88fb1")
+	)
+	(wire
+		(pts
+			(xy 100.33 128.27) (xy 109.22 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad8fb869-1622-464a-abc1-397e801da397")
+	)
+	(wire
+		(pts
+			(xy 100.33 120.65) (xy 100.33 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ec7b82-8706-455c-9401-652f16ca31a1")
+	)
+	(wire
+		(pts
 			(xy 149.86 93.98) (xy 149.86 101.6)
 		)
 		(stroke
@@ -1005,6 +1177,36 @@
 			(type default)
 		)
 		(uuid "b756745f-b0ba-44a2-8937-9a4c147c359b")
+	)
+	(wire
+		(pts
+			(xy 100.33 115.57) (xy 100.33 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2c2c44a-f103-4db5-af68-32e40783f69e")
+	)
+	(wire
+		(pts
+			(xy 100.33 113.03) (xy 100.33 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d642d6ee-52da-46d2-bd06-26e0ab11a398")
+	)
+	(wire
+		(pts
+			(xy 100.33 123.19) (xy 100.33 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb97285-b2db-4863-836f-382c1434ebd9")
 	)
 	(global_label "GPIO31"
 		(shape input)
@@ -1094,7 +1296,40 @@
 			)
 		)
 	)
+	(hierarchical_label "GPIO25"
+		(shape input)
+		(at 124.46 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "099b1d76-68f1-4c41-86ed-930b38fbac80")
+	)
+	(hierarchical_label "GPIO24"
+		(shape input)
+		(at 124.46 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ad15862-9315-41a9-b508-202213d2183f")
+	)
 	(hierarchical_label "GPIO22"
+		(shape input)
+		(at 124.46 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4aed7b43-f021-46b4-8187-da1df1896302")
+	)
+	(hierarchical_label "GPIO29"
 		(shape input)
 		(at 124.46 113.03 0)
 		(effects
@@ -1104,6 +1339,50 @@
 			(justify left)
 		)
 		(uuid "5aeb5e87-c0f6-4de6-b42b-f7f6c844c365")
+	)
+	(hierarchical_label "GPIO26"
+		(shape input)
+		(at 124.46 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "738c0394-bb36-4be5-aed6-04baa88d1ce0")
+	)
+	(hierarchical_label "GPIO27"
+		(shape input)
+		(at 124.46 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a769c01c-3348-4048-82c0-cda6529b73e8")
+	)
+	(hierarchical_label "GPIO28"
+		(shape input)
+		(at 124.46 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f170f700-15de-43a4-8340-54be5060ca30")
+	)
+	(hierarchical_label "GPIO23"
+		(shape input)
+		(at 124.46 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6f5400e-3cd4-40fb-97a2-1bab6b438ac5")
 	)
 	(symbol
 		(lib_id "Switch:SW_Omron_B3FS")
@@ -1314,6 +1593,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 100.33 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af8f6401-d47b-480c-9aca-4e386382f302")
+		(property "Reference" "#PWR067"
+			(at 100.33 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 100.33 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 100.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37dba53e-49df-4e1f-b0a5-d6507328afc6")
+		)
+		(instances
+			(project ""
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/ba1de432-0703-49aa-92c9-1bafe9390a02"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_DIP_x08")
 		(at 116.84 123.19 0)
 		(unit 1)
@@ -1339,7 +1684,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx08_Slide_Omron_A6S-810x_W8.9mm_P2.54mm"
 			(at 116.84 123.19 0)
 			(effects
 				(font
