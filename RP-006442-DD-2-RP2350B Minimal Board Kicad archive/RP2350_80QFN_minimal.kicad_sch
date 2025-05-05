@@ -15515,7 +15515,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "5.1k"
 			(at 48.26 42.418 90)
 			(effects
 				(font
@@ -18249,7 +18249,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "5.1k"
 			(at 57.15 43.18 90)
 			(effects
 				(font

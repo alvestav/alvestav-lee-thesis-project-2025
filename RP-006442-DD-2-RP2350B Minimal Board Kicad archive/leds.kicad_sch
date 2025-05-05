@@ -784,6 +784,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "I = (3.3-2)/820 = 1.58 mA\n1.58 mA * 8 = 12.64 mA\n"
+		(exclude_from_sim no)
+		(at 53.594 179.578 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6eac6bf1-a447-40eb-ab62-18647b68a50d")
+	)
 	(text "U=R*I\nI = (3.3v-Vf)/470 = (3.3-2)/470 = 2.77 mA/diode\n2.77 mA * 8 = 22.16 mA per 74HC595\nDatasheet for 74HC595 states limiting output current as +-35mA\nCurrent is within limits"
 		(exclude_from_sim no)
 		(at 41.148 156.464 0)
