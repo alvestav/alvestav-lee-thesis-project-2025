@@ -812,7 +812,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:GND"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -825,7 +825,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -833,8 +833,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -859,7 +859,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -877,34 +877,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "GND_0_1"
 				(polyline
 					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -915,9 +891,9 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "GND_1_1"
 				(pin power_in line
-					(at 0 0 90)
+					(at 0 0 270)
 					(length 0)
 					(name "~"
 						(effects
@@ -940,7 +916,7 @@
 	)
 	(text "\nDongGuan KINGTEK Industrial Co.,LTD\n8-bit SPST Black Flat Toggle, \nRaised Style SMD-16P,6x20.3mm DIP Switches ROHS"
 		(exclude_from_sim no)
-		(at 132.08 137.16 0)
+		(at 135.636 129.794 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -950,7 +926,7 @@
 	)
 	(text "\nKorean Hroparts Elec\n6mm 4.3mm Round Button 50mA Standing paste \n6mm SPST 100MΩ 100000 Times 250gf 12V \nSMD Tactile Switches ROHS"
 		(exclude_from_sim no)
-		(at 128.27 97.79 0)
+		(at 135.382 42.418 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -958,79 +934,89 @@
 		)
 		(uuid "aedc84ef-6bd0-4602-a221-d96eb90b70f8")
 	)
+	(text "RP2350 configured with internal pull-up resistor"
+		(exclude_from_sim no)
+		(at 87.122 60.198 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b497e3a3-7716-425d-800e-9aba1d3f389a")
+	)
 	(junction
-		(at 100.33 118.11)
+		(at 152.4 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03af3453-be1a-4c5a-8352-fdc1c22366ab")
 	)
 	(junction
-		(at 143.51 93.98)
+		(at 149.86 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "09367b01-812a-4fb7-b036-96dd9390fab9")
+		(uuid "094edf06-945e-4ca8-a39d-9be7f858034e")
 	)
 	(junction
-		(at 135.89 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d172868-8427-4d5c-b20d-4467f18704d3")
-	)
-	(junction
-		(at 100.33 115.57)
+		(at 152.4 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "133eb67e-7eb6-409d-a661-f854f70f9aa1")
 	)
 	(junction
-		(at 100.33 125.73)
+		(at 149.86 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ca7350e-dbea-4071-901e-b5842b7dc51b")
+	)
+	(junction
+		(at 149.86 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2491966a-d53f-49da-b798-352ff0c4fafb")
+	)
+	(junction
+		(at 152.4 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42ff233d-9896-4f25-8877-f9e904d07ebc")
 	)
 	(junction
-		(at 128.27 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43fa1ea3-6f34-4061-a431-8f3deb6f1452")
-	)
-	(junction
-		(at 100.33 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d1b9106-e99a-49ce-a319-a22b84794a0b")
-	)
-	(junction
-		(at 100.33 120.65)
+		(at 152.4 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97bd583c-1670-497c-8d9b-2ba168f57d06")
 	)
 	(junction
-		(at 100.33 128.27)
+		(at 152.4 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b400c82b-81ab-4b2e-ba0e-3571ecdb2d8b")
 	)
 	(junction
-		(at 100.33 123.19)
+		(at 152.4 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd7af598-23d7-47c1-9334-d3c9f5aac8bf")
 	)
+	(junction
+		(at 152.4 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0967504-d998-4180-ade2-72818f977537")
+	)
 	(wire
 		(pts
-			(xy 120.65 93.98) (xy 128.27 93.98)
+			(xy 127 63.5) (xy 133.35 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0aa46380-402d-49a0-9f86-122af7bc7973")
+		(uuid "087e71c1-2be5-4f33-b95a-385926892486")
 	)
 	(wire
 		(pts
-			(xy 100.33 113.03) (xy 109.22 113.03)
+			(xy 152.4 99.06) (xy 143.51 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1040,7 +1026,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 125.73) (xy 109.22 125.73)
+			(xy 152.4 111.76) (xy 143.51 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1050,17 +1036,37 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 93.98) (xy 149.86 93.98)
+			(xy 143.51 71.12) (xy 149.86 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "240bcb47-cd41-499d-9a01-09a5391db665")
+		(uuid "1fd8b2d9-cb1a-420a-865d-20ee92682b9f")
 	)
 	(wire
 		(pts
-			(xy 100.33 115.57) (xy 109.22 115.57)
+			(xy 143.51 63.5) (xy 149.86 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "252e9636-e201-4b39-be44-f9c34b3d9466")
+	)
+	(wire
+		(pts
+			(xy 149.86 78.74) (xy 143.51 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "287abf49-1029-466e-ae68-f60c505b1871")
+	)
+	(wire
+		(pts
+			(xy 152.4 101.6) (xy 143.51 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1070,17 +1076,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 93.98) (xy 143.51 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "314f46ec-949e-47e3-a3f2-52d5cf26e6ab")
-	)
-	(wire
-		(pts
-			(xy 100.33 118.11) (xy 109.22 118.11)
+			(xy 152.4 104.14) (xy 143.51 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1090,7 +1086,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 120.65) (xy 109.22 120.65)
+			(xy 152.4 106.68) (xy 143.51 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1100,7 +1096,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 118.11) (xy 100.33 120.65)
+			(xy 152.4 104.14) (xy 152.4 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1110,17 +1106,27 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 93.98) (xy 135.89 93.98)
+			(xy 149.86 55.88) (xy 149.86 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e9c4dc9-6d70-4ff3-a674-22d636921201")
+		(uuid "56d5ebc9-cc35-41c1-afff-41380a28405c")
 	)
 	(wire
 		(pts
-			(xy 100.33 125.73) (xy 100.33 128.27)
+			(xy 143.51 55.88) (xy 149.86 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f54663f-e8e3-4ec2-876f-efc42708cc53")
+	)
+	(wire
+		(pts
+			(xy 152.4 111.76) (xy 152.4 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1130,7 +1136,17 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 130.81) (xy 109.22 130.81)
+			(xy 149.86 63.5) (xy 149.86 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7788aa8c-7c65-432c-9aa9-e2f7c54b0d65")
+	)
+	(wire
+		(pts
+			(xy 152.4 116.84) (xy 143.51 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1140,17 +1156,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 130.81) (xy 100.33 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87ac8881-1324-4e76-8514-7b597f5c900e")
-	)
-	(wire
-		(pts
-			(xy 100.33 123.19) (xy 109.22 123.19)
+			(xy 152.4 109.22) (xy 143.51 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1160,7 +1166,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 128.27) (xy 100.33 130.81)
+			(xy 152.4 114.3) (xy 152.4 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1170,7 +1176,17 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 128.27) (xy 109.22 128.27)
+			(xy 127 55.88) (xy 133.35 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a454d32b-881b-46c0-a2db-b1c3e878c3a2")
+	)
+	(wire
+		(pts
+			(xy 152.4 114.3) (xy 143.51 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1180,7 +1196,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 120.65) (xy 100.33 123.19)
+			(xy 152.4 106.68) (xy 152.4 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1190,17 +1206,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 93.98) (xy 149.86 101.6)
+			(xy 127 71.12) (xy 133.35 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b756745f-b0ba-44a2-8937-9a4c147c359b")
+		(uuid "c19a65e9-d20b-4fbd-8e6a-8b0da65171f7")
 	)
 	(wire
 		(pts
-			(xy 100.33 115.57) (xy 100.33 118.11)
+			(xy 152.4 101.6) (xy 152.4 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1210,7 +1226,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 113.03) (xy 100.33 115.57)
+			(xy 152.4 99.06) (xy 152.4 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1220,7 +1236,27 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 123.19) (xy 100.33 125.73)
+			(xy 127 78.74) (xy 133.35 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b0bd88-a859-4252-bc5a-16b55ea58566")
+	)
+	(wire
+		(pts
+			(xy 149.86 71.12) (xy 149.86 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5dd7a85-890c-4103-9cc5-09a8ed21be82")
+	)
+	(wire
+		(pts
+			(xy 152.4 109.22) (xy 152.4 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1228,194 +1264,149 @@
 		)
 		(uuid "fdb97285-b2db-4863-836f-382c1434ebd9")
 	)
-	(global_label "GPIO31"
-		(shape input)
-		(at 128.27 83.82 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5c38c629-0eef-4f2d-a264-855bf561326d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.27 74.5947 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO32"
-		(shape input)
-		(at 135.89 83.82 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6206fb35-73d7-4929-a66a-084eae9bc07e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 74.5947 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO30"
-		(shape input)
-		(at 120.65 83.82 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7cd43617-8982-4254-b24a-2c56a577255b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.65 74.5947 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO33"
-		(shape input)
-		(at 143.51 83.82 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c167e96a-708a-4e3f-8fec-32a554fe35a9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.51 74.5947 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "GPIO25"
 		(shape input)
-		(at 124.46 123.19 0)
+		(at 128.27 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "099b1d76-68f1-4c41-86ed-930b38fbac80")
 	)
 	(hierarchical_label "GPIO24"
 		(shape input)
-		(at 124.46 125.73 0)
+		(at 128.27 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0ad15862-9315-41a9-b508-202213d2183f")
 	)
-	(hierarchical_label "GPIO22"
+	(hierarchical_label "GPIO33"
 		(shape input)
-		(at 124.46 130.81 0)
+		(at 127 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
+		)
+		(uuid "44693a38-b925-4a28-ad7e-9fc5bfa48ce7")
+	)
+	(hierarchical_label "GPIO22"
+		(shape input)
+		(at 128.27 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "4aed7b43-f021-46b4-8187-da1df1896302")
 	)
 	(hierarchical_label "GPIO29"
 		(shape input)
-		(at 124.46 113.03 0)
+		(at 128.27 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5aeb5e87-c0f6-4de6-b42b-f7f6c844c365")
 	)
 	(hierarchical_label "GPIO26"
 		(shape input)
-		(at 124.46 120.65 0)
+		(at 128.27 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "738c0394-bb36-4be5-aed6-04baa88d1ce0")
 	)
-	(hierarchical_label "GPIO27"
+	(hierarchical_label "GPIO31"
 		(shape input)
-		(at 124.46 118.11 0)
+		(at 127 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
+		)
+		(uuid "7e69dc71-5c69-41f3-9e69-87e1c14e22d9")
+	)
+	(hierarchical_label "GPIO27"
+		(shape input)
+		(at 128.27 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "a769c01c-3348-4048-82c0-cda6529b73e8")
 	)
-	(hierarchical_label "GPIO28"
+	(hierarchical_label "GPIO32"
 		(shape input)
-		(at 124.46 115.57 0)
+		(at 127 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
+		)
+		(uuid "c314d125-ffe5-4fe5-bc27-7de2791ff917")
+	)
+	(hierarchical_label "GPIO30"
+		(shape input)
+		(at 127 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d57aadf4-26f3-4423-90f1-142cd3b95890")
+	)
+	(hierarchical_label "GPIO28"
+		(shape input)
+		(at 128.27 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "f170f700-15de-43a4-8340-54be5060ca30")
 	)
 	(hierarchical_label "GPIO23"
 		(shape input)
-		(at 124.46 128.27 0)
+		(at 128.27 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f6f5400e-3cd4-40fb-97a2-1bab6b438ac5")
 	)
 	(symbol
 		(lib_id "Switch:SW_Omron_B3FS")
-		(at 120.65 88.9 90)
+		(at 138.43 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "000b232b-3695-4e00-b2d5-3448f3e62eea")
 		(property "Reference" "SW11"
-			(at 121.92 87.6299 90)
+			(at 140.716 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1424,7 +1415,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS"
-			(at 121.92 90.1699 90)
+			(at 137.1601 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1434,7 +1425,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
-			(at 115.57 88.9 0)
+			(at 138.43 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1443,7 +1434,7 @@
 			)
 		)
 		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 115.57 88.9 0)
+			(at 138.43 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1452,7 +1443,7 @@
 			)
 		)
 		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 120.65 88.9 0)
+			(at 138.43 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1476,17 +1467,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 149.86 101.6 180)
+		(lib_id "power:GND")
+		(at 149.86 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "86709894-9707-4943-853a-de3352301825")
-		(property "Reference" "#PWR068"
-			(at 149.86 97.79 0)
+		(uuid "574b320f-175b-4acf-a22c-2a248dd56009")
+		(property "Reference" "#PWR032"
+			(at 149.86 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1494,8 +1485,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 149.86 106.68 0)
+		(property "Value" "GND"
+			(at 149.86 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1503,7 +1494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 101.6 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1512,7 +1503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 101.6 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1520,8 +1511,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 149.86 101.6 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,12 +1521,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "6f62695f-c728-4387-85f2-59e977a8e526")
+			(uuid "807ddd8c-d1b3-481b-87b3-6ff87d023eb6")
 		)
 		(instances
-			(project "RP2350_80QFN_minimal"
+			(project ""
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/ba1de432-0703-49aa-92c9-1bafe9390a02"
-					(reference "#PWR068")
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68e3d0f0-8327-4370-8797-9c0dd78d86d6")
+		(property "Reference" "#PWR059"
+			(at 152.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "babfc49d-e86d-43b0-816b-d9c21a0bcfa4")
+		)
+		(instances
+			(project ""
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/ba1de432-0703-49aa-92c9-1bafe9390a02"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -1543,16 +1601,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Omron_B3FS")
-		(at 128.27 88.9 90)
+		(at 138.43 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "98428ac9-c699-4f60-ac1a-3e82db783eb8")
 		(property "Reference" "SW12"
-			(at 129.54 87.6299 90)
+			(at 140.716 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,7 +1618,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS"
-			(at 129.54 90.1699 90)
+			(at 137.1601 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1571,7 +1628,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
-			(at 123.19 88.9 0)
+			(at 138.43 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,7 +1637,7 @@
 			)
 		)
 		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 123.19 88.9 0)
+			(at 138.43 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,7 +1646,7 @@
 			)
 		)
 		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 128.27 88.9 0)
+			(at 138.43 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1613,74 +1670,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 100.33 138.43 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af8f6401-d47b-480c-9aca-4e386382f302")
-		(property "Reference" "#PWR067"
-			(at 100.33 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 100.33 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 100.33 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37dba53e-49df-4e1f-b0a5-d6507328afc6")
-		)
-		(instances
-			(project ""
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/ba1de432-0703-49aa-92c9-1bafe9390a02"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_DIP_x08")
-		(at 116.84 123.19 0)
+		(at 135.89 109.22 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1689,7 +1681,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfc588ed-3a4d-4136-8b39-92ec85b797b0")
 		(property "Reference" "SW10"
-			(at 116.84 105.41 0)
+			(at 135.89 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,7 +1689,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x08"
-			(at 116.84 107.95 0)
+			(at 135.89 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,7 +1697,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx08_Slide_Omron_A6S-810x_W8.9mm_P2.54mm"
-			(at 116.84 123.19 0)
+			(at 135.89 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1714,7 +1706,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588905267774042112"
-			(at 116.84 123.19 0)
+			(at 135.89 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,7 +1715,7 @@
 			)
 		)
 		(property "Description" "8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 116.84 123.19 0)
+			(at 135.89 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,16 +1782,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Omron_B3FS")
-		(at 135.89 88.9 90)
+		(at 138.43 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f7f60340-03c9-40d4-b88f-be69e126d93c")
 		(property "Reference" "SW13"
-			(at 137.16 87.6299 90)
+			(at 140.97 66.802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1808,7 +1799,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS"
-			(at 137.16 90.1699 90)
+			(at 137.1601 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,7 +1809,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
-			(at 130.81 88.9 0)
+			(at 138.43 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +1818,7 @@
 			)
 		)
 		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 130.81 88.9 0)
+			(at 138.43 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,7 +1827,7 @@
 			)
 		)
 		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 135.89 88.9 0)
+			(at 138.43 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1861,16 +1852,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Omron_B3FS")
-		(at 143.51 88.9 90)
+		(at 138.43 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f8c0fee6-f0c3-41ee-99bc-a0ca42984444")
 		(property "Reference" "SW14"
-			(at 144.78 87.6299 90)
+			(at 140.716 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1879,7 +1869,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS"
-			(at 144.78 90.1699 90)
+			(at 144.272 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,7 +1878,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
-			(at 138.43 88.9 0)
+			(at 138.43 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1897,7 +1887,7 @@
 			)
 		)
 		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 138.43 88.9 0)
+			(at 138.43 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1906,7 +1896,7 @@
 			)
 		)
 		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 143.51 88.9 0)
+			(at 138.43 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
