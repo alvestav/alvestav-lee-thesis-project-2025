@@ -1674,6 +1674,16 @@
 		)
 		(uuid "6dc2c1a0-45ad-4794-badd-62d8ec360f38")
 	)
+	(text "Holtek Semicon\nHT16K33A-24SSOP\nSSOP-24 LED Drivers ROHS"
+		(exclude_from_sim no)
+		(at 78.74 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "959babcf-3834-4eea-948d-56476cfc82f3")
+	)
 	(junction
 		(at 113.03 99.06)
 		(diameter 0)
@@ -2662,7 +2672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.holtek.com/webapi/116711/HT16K33Av102.pdf"
 			(at 63.5 91.44 0)
 			(effects
 				(font

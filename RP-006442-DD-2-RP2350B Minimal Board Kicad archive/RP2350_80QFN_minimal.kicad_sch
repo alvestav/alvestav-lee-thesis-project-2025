@@ -6585,16 +6585,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 229.87) (xy 274.32 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03e041d3-90dd-445b-a504-ed7f25c33f28")
-	)
-	(wire
-		(pts
 			(xy 394.97 100.33) (xy 394.97 102.87)
 		)
 		(stroke
@@ -16699,71 +16689,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 269.24 229.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "66a7e473-6d42-4a0b-849a-3c80bc15fba7")
-		(property "Reference" "#PWR032"
-			(at 269.24 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 269.621 225.4758 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05479c91-f831-47a8-8782-7999e893e1e2")
-		)
-		(instances
-			(project "RP2350_80QFN_minimal"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 66.04 49.53 0)
 		(unit 1)
@@ -18539,8 +18464,8 @@
 			)
 		)
 		(pin "SCL" input
-			(at 274.32 240.03 180)
-			(uuid "2d36ec68-e320-4b90-b3cf-293275bb5f96")
+			(at 274.32 231.14 180)
+			(uuid "8e09251f-3ede-401c-b0f9-6a39c6eda9b0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18550,7 +18475,7 @@
 		)
 		(pin "SDA" bidirectional
 			(at 274.32 234.95 180)
-			(uuid "8b38f7e5-9ed8-4131-855b-78d894875b85")
+			(uuid "718a25fb-8733-4770-bcd7-3ef9f051e458")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18559,8 +18484,8 @@
 			)
 		)
 		(pin "VDD" input
-			(at 274.32 229.87 180)
-			(uuid "df7535c7-5528-48f7-8518-b9430b238c79")
+			(at 274.32 240.03 180)
+			(uuid "ff7ee285-3d99-4d66-98fb-71ab35dde1fc")
 			(effects
 				(font
 					(size 1.27 1.27)
