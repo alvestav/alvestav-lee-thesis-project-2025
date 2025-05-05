@@ -784,6 +784,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Texas Instruments\nSN74HC595DR\n8 2V~6V 1 Serial to serial or parallel \nSOIC-16 Shift Registers ROHS"
+		(exclude_from_sim no)
+		(at 64.77 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2dfed36f-f578-44a4-abf1-daaa72ba1eea")
+	)
 	(text "I = (3.3-2)/820 = 1.58 mA\n1.58 mA * 8 = 12.64 mA\n"
 		(exclude_from_sim no)
 		(at 53.594 179.578 0)
@@ -793,6 +803,16 @@
 			)
 		)
 		(uuid "6eac6bf1-a447-40eb-ab62-18647b68a50d")
+	)
+	(text "Foshan NationStar Optoelectronics\n25mA Colorless transparent lens 67mcd~195mcd -30℃~+85℃ \n615nm~630nm Individual diode Red 130° 65mW 1.6V~2.6V \n0805 LED Indication - Discrete ROHS"
+		(exclude_from_sim no)
+		(at 83.82 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b10c8bf7-2bd5-4581-b249-4a55ea99906e")
 	)
 	(text "U=R*I\nI = (3.3v-Vf)/470 = (3.3-2)/470 = 2.77 mA/diode\n2.77 mA * 8 = 22.16 mA per 74HC595\nDatasheet for 74HC595 states limiting output current as +-35mA\nCurrent is within limits"
 		(exclude_from_sim no)
@@ -2246,7 +2266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724080677908480"
 			(at 107.95 86.36 0)
 			(effects
 				(font

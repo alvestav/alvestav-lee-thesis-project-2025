@@ -938,6 +938,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "\nDongGuan KINGTEK Industrial Co.,LTD\n8-bit SPST Black Flat Toggle, \nRaised Style SMD-16P,6x20.3mm DIP Switches ROHS"
+		(exclude_from_sim no)
+		(at 132.08 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9af6e2e1-eb6c-42a5-9efd-23a33df935d0")
+	)
+	(text "\nKorean Hroparts Elec\n6mm 4.3mm Round Button 50mA Standing paste \n6mm SPST 100MΩ 100000 Times 250gf 12V \nSMD Tactile Switches ROHS"
+		(exclude_from_sim no)
+		(at 128.27 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aedc84ef-6bd0-4602-a221-d96eb90b70f8")
+	)
 	(junction
 		(at 100.33 118.11)
 		(diameter 0)
@@ -1693,7 +1713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588905267774042112"
 			(at 116.84 123.19 0)
 			(effects
 				(font
