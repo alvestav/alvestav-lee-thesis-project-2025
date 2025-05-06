@@ -33157,6 +33157,18 @@
 			(justify right)
 		)
 	)
+	(gr_text "Prototype Lab Board\nThesis project in IL142X\nGustav Alvestav\nHein Lee\n6-5-2025\nRev. 0.1"
+		(at 65.075 103.125 270)
+		(layer "F.SilkS")
+		(uuid "8b400855-b088-47a9-a37e-ea72d1545aed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "GP41"
 		(at 107.535 64.29 0)
 		(layer "F.SilkS")
