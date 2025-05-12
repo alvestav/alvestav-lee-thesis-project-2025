@@ -653,7 +653,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Omron_B3FS"
+		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
 			)
@@ -673,7 +673,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SW_Omron_B3FS"
+			(property "Value" "SW_Push"
 				(at 0 -1.524 0)
 				(effects
 					(font
@@ -690,7 +690,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+			(property "Datasheet" "~"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -699,7 +699,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -717,16 +717,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW*Omron*B3FS*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Omron_B3FS_0_1"
+			(symbol "SW_Push_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -1397,34 +1388,98 @@
 		(uuid "f6f5400e-3cd4-40fb-97a2-1bab6b438ac5")
 	)
 	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
+		(lib_id "Switch:SW_Push")
+		(at 138.43 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18738547-e181-4dcf-9c90-c451e2a67afa")
+		(property "Reference" "SW8"
+			(at 134.366 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 143.764 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_K2-1102SP-A4SC-04"
+			(at 138.43 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 138.43 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "599e5f2a-501a-4789-aa88-ffb207d0f8b9")
+		)
+		(pin "2"
+			(uuid "724d6ca2-4d8f-4b05-b36c-02abd75fe1bd")
+		)
+		(instances
+			(project "RP2350_80QFN_minimal"
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/ba1de432-0703-49aa-92c9-1bafe9390a02"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
 		(at 138.43 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "000b232b-3695-4e00-b2d5-3448f3e62eea")
-		(property "Reference" "SW11"
-			(at 140.716 51.308 0)
+		(uuid "3531ad42-0b79-48e1-b07f-556e222dea60")
+		(property "Reference" "SW5"
+			(at 134.366 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "SW_Omron_B3FS"
-			(at 137.1601 57.15 90)
+		(property "Value" "SW_Push"
+			(at 143.51 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_K2-1102SP-A4SC-04"
 			(at 138.43 50.8 0)
 			(effects
 				(font
@@ -1433,7 +1488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+		(property "Datasheet" "~"
 			(at 138.43 50.8 0)
 			(effects
 				(font
@@ -1442,7 +1497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+		(property "Description" "Push button switch, generic, two pins"
 			(at 138.43 55.88 0)
 			(effects
 				(font
@@ -1451,16 +1506,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "dcee10f8-7f79-411c-bf9a-bc5f95ca10cd")
-		)
 		(pin "1"
-			(uuid "41a73717-26cc-43a8-b76c-0d26b955b359")
+			(uuid "016bd17c-1091-46b4-a18d-e1d54fc5d2a7")
+		)
+		(pin "2"
+			(uuid "fba9d0b2-fa8f-454b-bb90-3059b27a0c53")
 		)
 		(instances
-			(project "RP2350_80QFN_minimal"
+			(project ""
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/ba1de432-0703-49aa-92c9-1bafe9390a02"
-					(reference "SW11")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -1600,34 +1655,31 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
+		(lib_id "Switch:SW_Push")
 		(at 138.43 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "98428ac9-c699-4f60-ac1a-3e82db783eb8")
-		(property "Reference" "SW12"
-			(at 140.716 58.928 0)
+		(uuid "b4927874-b502-44a3-bfa3-20a9673c2700")
+		(property "Reference" "SW6"
+			(at 134.366 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "SW_Omron_B3FS"
-			(at 137.1601 64.77 90)
+		(property "Value" "SW_Push"
+			(at 143.764 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_K2-1102SP-A4SC-04"
 			(at 138.43 58.42 0)
 			(effects
 				(font
@@ -1636,7 +1688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+		(property "Datasheet" "~"
 			(at 138.43 58.42 0)
 			(effects
 				(font
@@ -1645,7 +1697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+		(property "Description" "Push button switch, generic, two pins"
 			(at 138.43 63.5 0)
 			(effects
 				(font
@@ -1654,16 +1706,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "dc5094a2-d4e4-4f85-96fe-52ec405b7680")
-		)
 		(pin "1"
-			(uuid "d61b4216-f51c-43c9-9030-459511eb51e1")
+			(uuid "4e1248e2-9b40-46b7-992c-56415d6b8ddd")
+		)
+		(pin "2"
+			(uuid "4b33843e-b1f9-40ee-a01c-7db70ffd18ba")
 		)
 		(instances
 			(project "RP2350_80QFN_minimal"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/ba1de432-0703-49aa-92c9-1bafe9390a02"
-					(reference "SW12")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -1781,34 +1833,31 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
+		(lib_id "Switch:SW_Push")
 		(at 138.43 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f7f60340-03c9-40d4-b88f-be69e126d93c")
-		(property "Reference" "SW13"
-			(at 140.97 66.802 0)
+		(uuid "fc515d86-127d-4619-b4ac-3e86935c977e")
+		(property "Reference" "SW7"
+			(at 134.366 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "SW_Omron_B3FS"
-			(at 137.1601 72.39 90)
+		(property "Value" "SW_Push"
+			(at 143.764 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_K2-1102SP-A4SC-04"
 			(at 138.43 66.04 0)
 			(effects
 				(font
@@ -1817,7 +1866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+		(property "Datasheet" "~"
 			(at 138.43 66.04 0)
 			(effects
 				(font
@@ -1826,7 +1875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+		(property "Description" "Push button switch, generic, two pins"
 			(at 138.43 71.12 0)
 			(effects
 				(font
@@ -1835,85 +1884,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "b714d3c2-d52a-4a44-bbb0-cc85d4b476d3")
-		)
 		(pin "1"
-			(uuid "c212df9f-0d9e-4a7b-a9da-5ee0e5a47de9")
+			(uuid "601d9243-0ea0-4276-8e19-490e818b0b5d")
+		)
+		(pin "2"
+			(uuid "d3fb4e30-ec6c-41c5-bfff-eee37061c650")
 		)
 		(instances
 			(project "RP2350_80QFN_minimal"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/ba1de432-0703-49aa-92c9-1bafe9390a02"
-					(reference "SW13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
-		(at 138.43 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8c0fee6-f0c3-41ee-99bc-a0ca42984444")
-		(property "Reference" "SW14"
-			(at 140.716 74.168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Omron_B3FS"
-			(at 144.272 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
-			(at 138.43 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 138.43 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 138.43 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "477ce14a-4d27-4318-8a7c-2d343f516516")
-		)
-		(pin "1"
-			(uuid "136d0ec7-2cbc-42aa-84a7-fd95b1a56d29")
-		)
-		(instances
-			(project "RP2350_80QFN_minimal"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/ba1de432-0703-49aa-92c9-1bafe9390a02"
-					(reference "SW14")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
