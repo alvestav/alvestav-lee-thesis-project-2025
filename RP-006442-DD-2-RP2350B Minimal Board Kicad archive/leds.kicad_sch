@@ -2224,7 +2224,7 @@
 		)
 		(uuid "e7a5a309-71e4-4d34-9d08-14f5508652f7")
 	)
-	(hierarchical_label "Vcc"
+	(hierarchical_label "VCC"
 		(shape input)
 		(at 74.93 19.05 180)
 		(effects
@@ -2235,7 +2235,7 @@
 		)
 		(uuid "0710d613-03e3-48bd-8a87-1c1fa9c8bebe")
 	)
-	(hierarchical_label "Output enable"
+	(hierarchical_label "~{Output enable}"
 		(shape input)
 		(at 148.59 54.61 180)
 		(effects
@@ -2244,9 +2244,9 @@
 			)
 			(justify right)
 		)
-		(uuid "2a732ff9-e41c-4406-b1c1-891e6fefccbf")
+		(uuid "5a92eff6-67c3-4e2c-bf8a-b8c5d973cb8b")
 	)
-	(hierarchical_label "Vcc"
+	(hierarchical_label "VCC"
 		(shape input)
 		(at 151.13 20.32 180)
 		(effects
@@ -2301,7 +2301,7 @@
 		)
 		(uuid "b9779d78-1897-4f2d-bf65-1403b8ed80c9")
 	)
-	(hierarchical_label "Output enable"
+	(hierarchical_label "~{Output enable}"
 		(shape input)
 		(at 72.39 54.61 180)
 		(effects
