@@ -5,6 +5,113 @@
 	(uuid "8fe67784-bbb5-426f-9510-5f8307885454")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -1537,6 +1644,155 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:PMEG6010ELR"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PMEG6010ELR"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6010ELR.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "60V, 1A low leakage current MEGA Schottky barrier rectifier, SOD-123W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ir diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Nexperia*CFP3*SOD?123W*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMEG6010ELR_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PMEG6010ELR_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3820,6 +4076,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VDC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(circle
 		(center 139.7 108.585)
@@ -3837,7 +4218,7 @@
 	)
 	(text "Power"
 		(exclude_from_sim no)
-		(at 78.74 29.21 0)
+		(at 51.562 28.956 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3856,6 +4237,16 @@
 			(justify left bottom)
 		)
 		(uuid "5ce6c09a-a056-40ed-80a5-17bb3625e40e")
+	)
+	(text "common power connection to vsys"
+		(exclude_from_sim no)
+		(at 112.522 22.352 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7bfa2762-bc33-4d15-8ec8-cd7996a429b5")
 	)
 	(text "Make sure R7 and R8 are close to RP2350\n"
 		(exclude_from_sim no)
@@ -3913,6 +4304,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09f93145-376d-4da1-af84-3ce8eb116c12")
+	)
+	(junction
+		(at 55.88 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11c82c29-94ce-456f-bf85-32d121003610")
 	)
 	(junction
 		(at 114.3 97.79)
@@ -4039,12 +4436,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a23aef05-e70e-4823-895b-5de34f93ff35")
-	)
-	(junction
-		(at 72.39 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4316000-cbdd-4e8d-8743-8fcc3c527a2b")
 	)
 	(junction
 		(at 29.21 80.01)
@@ -4304,16 +4695,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 39.37) (xy 72.39 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ee6d293-99d8-4150-b338-9ed73b3b827f")
-	)
-	(wire
-		(pts
 			(xy 236.22 121.92) (xy 256.54 121.92)
 		)
 		(stroke
@@ -4351,6 +4732,16 @@
 			(type default)
 		)
 		(uuid "13bffb40-3fa7-489e-983f-5742f4caca6b")
+	)
+	(wire
+		(pts
+			(xy 82.55 40.64) (xy 92.71 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1464ccbe-ee72-47ba-92a4-86f0fb9e71a9")
 	)
 	(wire
 		(pts
@@ -4564,6 +4955,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 40.64) (xy 82.55 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "362d7d57-696c-48aa-9d83-ff5e89ecc882")
+	)
+	(wire
+		(pts
 			(xy 242.57 97.79) (xy 247.65 97.79)
 		)
 		(stroke
@@ -4684,7 +5085,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 55.88) (xy 52.07 55.88)
+			(xy 66.04 55.88) (xy 52.07 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4711,16 +5112,6 @@
 			(type default)
 		)
 		(uuid "4fbcd02c-61ce-4757-a7ad-5a41449604db")
-	)
-	(wire
-		(pts
-			(xy 72.39 40.64) (xy 82.55 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52ef4643-8a7e-41f8-9cf6-f9a43bc9cf6b")
 	)
 	(wire
 		(pts
@@ -4764,16 +5155,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 40.64) (xy 82.55 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5415cf26-ddf0-443d-aa26-1161f9de9339")
-	)
-	(wire
-		(pts
 			(xy 181.61 63.5) (xy 181.61 83.82)
 		)
 		(stroke
@@ -4781,6 +5162,16 @@
 			(type default)
 		)
 		(uuid "57740925-cc64-40fc-888f-1e164ad2a1fd")
+	)
+	(wire
+		(pts
+			(xy 55.88 40.64) (xy 66.04 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57ca1fa8-9b9a-4814-88c8-a00f85e3723c")
 	)
 	(wire
 		(pts
@@ -4844,16 +5235,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 60.96) (xy 52.07 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63140d83-20c6-4382-8474-d549ea0f4125")
-	)
-	(wire
-		(pts
 			(xy 72.39 195.58) (xy 72.39 196.85)
 		)
 		(stroke
@@ -4861,6 +5242,16 @@
 			(type default)
 		)
 		(uuid "645fdbe6-c436-426a-b80c-32bccc0b546c")
+	)
+	(wire
+		(pts
+			(xy 55.88 38.1) (xy 55.88 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651ec8d5-941e-4750-94b7-237456799d58")
 	)
 	(wire
 		(pts
@@ -4914,7 +5305,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 40.64) (xy 72.39 40.64)
+			(xy 52.07 40.64) (xy 55.88 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5881,6 +6272,16 @@
 			(type default)
 		)
 		(uuid "d3c988f3-6ea8-4b44-8476-54281b8a7daa")
+	)
+	(wire
+		(pts
+			(xy 63.5 60.96) (xy 52.07 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d55fe8cf-54cd-422e-a807-6f33c3c49654")
 	)
 	(wire
 		(pts
@@ -6924,6 +7325,17 @@
 		)
 		(uuid "412c61c9-339e-4620-8692-50667c4ebd10")
 	)
+	(hierarchical_label "VSYS"
+		(shape output)
+		(at 82.55 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47a43bb2-21f0-49a2-92df-449296b71723")
+	)
 	(hierarchical_label "SWDIO"
 		(shape input)
 		(at 256.54 121.92 0)
@@ -7017,6 +7429,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 63.5 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02583aa0-e661-4001-9dc3-9889cd87da15")
+		(property "Reference" "TP4"
+			(at 66.04 62.9919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 66.04 65.5319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 58.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 63.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42ba6263-f9d5-4584-91db-66f3bac9fd30")
+		)
+		(instances
+			(project "RP2350_80QFN_minimal"
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/500e1af8-c8c5-44c6-9fbe-f4d5e5ab4ca8"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 298.45 76.835 0)
 		(mirror y)
@@ -7101,7 +7580,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 50.8 0)
+			(at 72.39 53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7820,6 +8299,72 @@
 			(project "RP2350_80QFN_minimal"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/500e1af8-c8c5-44c6-9fbe-f4d5e5ab4ca8"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDC")
+		(at 82.55 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "186999f6-5509-4b78-ae5f-a6cb49e9447a")
+		(property "Reference" "#PWR068"
+			(at 82.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 82.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 82.55 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a575a23e-4d23-4d0c-83a9-b56f340adc3f")
+		)
+		(instances
+			(project ""
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/500e1af8-c8c5-44c6-9fbe-f4d5e5ab4ca8"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -8545,6 +9090,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 66.04 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a369ca9-d921-477f-b610-c52e6cb76163")
+		(property "Reference" "TP3"
+			(at 68.58 57.9119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 68.58 60.4519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 60.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 66.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4eac6ede-f61b-414e-a6b6-f242579928cc")
+		)
+		(instances
+			(project "RP2350_80QFN_minimal"
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/500e1af8-c8c5-44c6-9fbe-f4d5e5ab4ca8"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Memory_Flash:W25Q128JVS")
 		(at 72.39 185.42 0)
 		(unit 1)
@@ -9114,7 +9726,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 72.39 39.37 0)
+		(at 55.88 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9122,7 +9734,7 @@
 		(dnp no)
 		(uuid "4e3dfaf0-f3ef-4af6-bfff-b1812a2322ab")
 		(property "Reference" "#PWR035"
-			(at 72.39 43.18 0)
+			(at 55.88 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9131,7 +9743,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 72.771 34.9758 0)
+			(at 56.261 33.7058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9139,7 +9751,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 39.37 0)
+			(at 55.88 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9148,7 +9760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 39.37 0)
+			(at 55.88 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9157,7 +9769,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 39.37 0)
+			(at 55.88 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9237,6 +9849,75 @@
 			(project "RP2350_80QFN_minimal"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/500e1af8-c8c5-44c6-9fbe-f4d5e5ab4ca8"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:PMEG6010ELR")
+		(at 69.85 40.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b5ce7e8-0361-49b8-9185-1c27bfe91af5")
+		(property "Reference" "D18"
+			(at 70.1675 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMEG6010ELR"
+			(at 70.1675 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 69.85 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6010ELR.pdf"
+			(at 69.85 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V, 1A low leakage current MEGA Schottky barrier rectifier, SOD-123W"
+			(at 69.85 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca2a5e42-7103-4ac4-a950-b7ee4c6221c3")
+		)
+		(pin "1"
+			(uuid "f1803949-d5f0-442d-a923-96bab6a79fbb")
+		)
+		(instances
+			(project "RP2350_80QFN_minimal"
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/500e1af8-c8c5-44c6-9fbe-f4d5e5ab4ca8"
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -9796,7 +10477,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 52.07 0)
+			(at 118.11 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10777,7 +11458,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 52.07 0)
+			(at 82.55 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11252,7 +11933,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 50.8 0)
+			(at 100.33 53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
