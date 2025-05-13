@@ -784,7 +784,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Texas Instruments\nSN74HC595DR\n8 2V~6V 1 Serial to serial or parallel \nSOIC-16 Shift Registers ROHS"
+	(text "74HC595; 74HCT595\nNexperia\n"
 		(exclude_from_sim no)
 		(at 64.77 66.04 0)
 		(effects
@@ -3506,7 +3506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579708624672903168"
 			(at 86.36 49.53 0)
 			(effects
 				(font
