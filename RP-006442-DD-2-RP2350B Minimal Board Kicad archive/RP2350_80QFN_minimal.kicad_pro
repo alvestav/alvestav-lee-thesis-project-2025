@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.15
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -681,6 +681,10 @@
     [
       "c2516de1-a5e0-487a-9315-df4770cb259d",
       "LEDs"
+    ],
+    [
+      "a329b4e6-f1a1-4475-a8ed-89dd27d5df01",
+      "Accelerometer"
     ]
   ],
   "text_variables": {}
