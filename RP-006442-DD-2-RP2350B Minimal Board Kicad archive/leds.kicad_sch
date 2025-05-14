@@ -953,7 +953,7 @@
 		)
 		(uuid "b10c8bf7-2bd5-4581-b249-4a55ea99906e")
 	)
-	(text "U=R*I\nI = (3.3v-Vf)/470 = (3.3-2)/470 = 2.77 mA/diode\n2.77 mA * 8 = 22.16 mA per 74HC595\nDatasheet for 74HC595 states limiting output current as +-35mA\nCurrent is within limits"
+	(text "U=R*I\nI = (3.3v-Vf)/470 = (3.3-2)/470 = 2.77 mA/LED\n2.77 mA * 8 = 22.16 mA per 74HC595\nDatasheet for 74HC595 states limiting output current as +-35mA\nCurrent is within limits"
 		(exclude_from_sim no)
 		(at 41.148 156.464 0)
 		(effects

@@ -6662,7 +6662,7 @@
 		)
 		(uuid "297ba64e-e42b-4f5e-ace8-1828aa5733d4")
 	)
-	(text "Current footprint: HRO_TYPE-C-31-M-12 (has THT)\nAlternative footprint: GCT USB4110 (SMD)"
+	(text "Current footprint: HRO_TYPE-C-31-M-12 (THT, in stock)\nAlternative footprint: GCT_USB4110 (SMD, not in stock)"
 		(exclude_from_sim no)
 		(at 44.958 24.13 0)
 		(effects
