@@ -6662,6 +6662,16 @@
 		)
 		(uuid "297ba64e-e42b-4f5e-ace8-1828aa5733d4")
 	)
+	(text "Current footprint: HRO_TYPE-C-31-M-12 (has THT)\nAlternative footprint: GCT USB4110 (SMD)"
+		(exclude_from_sim no)
+		(at 44.958 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54208243-51d9-44bd-8fab-dd82484a885f")
+	)
 	(text "GPIO35, SPI0 TX\nGPIO34, SPI0 SCK"
 		(exclude_from_sim no)
 		(at 385.572 216.662 0)
