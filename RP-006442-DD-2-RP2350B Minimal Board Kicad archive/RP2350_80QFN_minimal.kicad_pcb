@@ -23212,7 +23212,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R22"
-			(at -2.21 -0.2 90)
+			(at -2.35 -0.2 90)
 			(layer "F.SilkS")
 			(uuid "687701c8-4af2-41ba-b5cc-a862a43c4c93")
 			(effects
@@ -31249,7 +31249,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R21"
-			(at -2.2 0.1 90)
+			(at -2.35 0.1 90)
 			(layer "F.SilkS")
 			(uuid "88fcf89e-c8e1-4d28-ac1f-4554c4969496")
 			(effects
@@ -35266,8 +35266,8 @@
 			(justify right)
 		)
 	)
-	(gr_text "Debug USB"
-		(at 114.75 48.55 0)
+	(gr_text "Debug\npower"
+		(at 118.9 48.75 0)
 		(layer "F.SilkS")
 		(uuid "a7510bbc-03f8-49e8-bcc9-8d2c28fa6bc2")
 		(effects
@@ -35275,7 +35275,7 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 	)
 	(gr_text "SWCLK"
@@ -35300,8 +35300,8 @@
 			)
 		)
 	)
-	(gr_text "Double USB"
-		(at 114.6 60.7 0)
+	(gr_text "USB\npower\n"
+		(at 118.75 62.1 0)
 		(layer "F.SilkS")
 		(uuid "b9ac90bd-e7d0-466b-8fb0-d58bf3250085")
 		(effects
@@ -35309,7 +35309,7 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 	)
 	(gr_text "GP46"
