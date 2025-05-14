@@ -3505,6 +3505,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+1V1"
 			(power)
 			(pin_names
@@ -4193,6 +4369,12 @@
 		(uuid "07cab757-fea3-4604-80d8-03871497fad0")
 	)
 	(junction
+		(at 74.93 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09373c0c-adfe-4c9e-8dfc-cab60b74441d")
+	)
+	(junction
 		(at 213.36 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4471,6 +4653,10 @@
 	(no_connect
 		(at 52.07 71.12)
 		(uuid "1e8873d3-fc1f-4a0a-b19b-6af3d227c728")
+	)
+	(no_connect
+		(at 85.09 20.32)
+		(uuid "336759e6-db87-476b-8006-c470138e812f")
 	)
 	(no_connect
 		(at 52.07 68.58)
@@ -4848,7 +5034,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 40.64) (xy 82.55 40.64)
+			(xy 73.66 40.64) (xy 74.93 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5005,6 +5191,16 @@
 			(type default)
 		)
 		(uuid "4fbcd02c-61ce-4757-a7ad-5a41449604db")
+	)
+	(wire
+		(pts
+			(xy 74.93 40.64) (xy 82.55 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd277d4-2a9e-4ef1-ab3e-749a2605bf07")
 	)
 	(wire
 		(pts
@@ -5935,6 +6131,16 @@
 			(type default)
 		)
 		(uuid "bab3087b-7359-4c99-9fe2-996e009d367d")
+	)
+	(wire
+		(pts
+			(xy 74.93 22.86) (xy 74.93 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf73c7da-0e8a-4e46-9948-e9bd2e922280")
 	)
 	(wire
 		(pts
@@ -7220,7 +7426,7 @@
 	)
 	(hierarchical_label "VSYS"
 		(shape output)
-		(at 82.55 25.4 0)
+		(at 85.09 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11126,6 +11332,77 @@
 			(project "RP2350_80QFN_minimal"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/500e1af8-c8c5-44c6-9fbe-f4d5e5ab4ca8"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 80.01 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c70a4f3a-23ff-4e8d-90b3-766969f80845")
+		(property "Reference" "SW9"
+			(at 80.01 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 80.01 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_HRO_K3-1235S-K1"
+			(at 80.01 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 80.01 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc22b83d-265e-4445-9da2-cac13ccf8b2e")
+		)
+		(pin "3"
+			(uuid "a4878b0b-5ca8-4951-a304-cb8bd9f0da2c")
+		)
+		(pin "2"
+			(uuid "327e4688-e887-44b5-b496-3dd4b70dc9ff")
+		)
+		(instances
+			(project ""
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/500e1af8-c8c5-44c6-9fbe-f4d5e5ab4ca8"
+					(reference "SW9")
 					(unit 1)
 				)
 			)
