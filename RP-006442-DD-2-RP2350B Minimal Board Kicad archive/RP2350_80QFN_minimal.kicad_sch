@@ -6662,6 +6662,16 @@
 		)
 		(uuid "297ba64e-e42b-4f5e-ace8-1828aa5733d4")
 	)
+	(text "Current footprint: HRO_TYPE-C-31-M-12 (has THT)\nAlternative footprint: GCT USB4110 (SMD)"
+		(exclude_from_sim no)
+		(at 44.958 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54208243-51d9-44bd-8fab-dd82484a885f")
+	)
 	(text "GPIO35, SPI0 TX\nGPIO34, SPI0 SCK"
 		(exclude_from_sim no)
 		(at 385.572 216.662 0)
@@ -7585,7 +7595,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 237.49) (xy 107.95 251.46)
+			(xy 107.95 238.76) (xy 107.95 251.46)
 		)
 		(stroke
 			(width 0)
@@ -7725,7 +7735,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 262.89) (xy 142.24 262.89)
+			(xy 134.62 262.89) (xy 143.51 262.89)
 		)
 		(stroke
 			(width 0)
@@ -8145,7 +8155,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 237.49) (xy 119.38 237.49)
+			(xy 107.95 238.76) (xy 119.38 238.76)
 		)
 		(stroke
 			(width 0)
@@ -10655,7 +10665,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 237.49) (xy 143.51 237.49)
+			(xy 134.62 238.76) (xy 143.51 238.76)
 		)
 		(stroke
 			(width 0)
@@ -11364,12 +11374,12 @@
 		(uuid "09a9aaa1-f072-42de-97ae-5a74a61bd1fb")
 	)
 	(label "GPIO17"
-		(at 143.51 237.49 0)
+		(at 143.51 238.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0df39e96-5f41-484d-9e10-fc5dbfa0630d")
 	)
@@ -11384,12 +11394,12 @@
 		(uuid "0eb0e980-1fcc-45ec-90d7-fe4c87c3bff9")
 	)
 	(label "GPIO16"
-		(at 143.51 251.46 0)
+		(at 143.51 251.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0f57a1bd-a12a-426a-9032-5ccd7afd8b45")
 	)
@@ -12564,12 +12574,12 @@
 		(uuid "e3ff569e-27cf-438a-b7b0-16124968e160")
 	)
 	(label "GPIO15"
-		(at 142.24 262.89 0)
+		(at 143.51 262.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e6689472-916c-44ba-adc8-e4ce6c4ffa76")
 	)
@@ -15777,7 +15787,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 130.81 237.49 90)
+		(at 130.81 238.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15785,8 +15795,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26f88fa6-9cc8-4a1e-8f4a-91637a3daa99")
-		(property "Reference" "R44"
-			(at 130.81 231.14 90)
+		(property "Reference" "R43"
+			(at 130.81 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15794,7 +15804,7 @@
 			)
 		)
 		(property "Value" "820"
-			(at 130.81 233.68 90)
+			(at 130.81 234.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15802,7 +15812,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 130.81 239.268 90)
+			(at 130.81 240.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15811,7 +15821,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706319827632128"
-			(at 130.81 237.49 0)
+			(at 130.81 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15820,7 +15830,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 130.81 237.49 0)
+			(at 130.81 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15837,7 +15847,7 @@
 		(instances
 			(project ""
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "R44")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -17811,7 +17821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac06590a-61ac-4d74-9aa7-e89e1725a239")
-		(property "Reference" "R46"
+		(property "Reference" "R45"
 			(at 130.81 256.54 90)
 			(effects
 				(font
@@ -17863,7 +17873,7 @@
 		(instances
 			(project ""
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "R46")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -17879,7 +17889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af79ce9c-67c0-499f-923a-e9db44114cbc")
-		(property "Reference" "R45"
+		(property "Reference" "R44"
 			(at 130.81 245.11 90)
 			(effects
 				(font
@@ -17931,7 +17941,7 @@
 		(instances
 			(project ""
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "R45")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -18734,7 +18744,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 123.19 237.49 0)
+		(at 123.19 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18743,7 +18753,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca832c86-de0b-46c1-a147-fb9e4097fd01")
 		(property "Reference" "D18"
-			(at 121.6025 231.14 0)
+			(at 121.6025 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18751,7 +18761,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 121.6025 233.68 0)
+			(at 121.6025 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18759,7 +18769,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 123.19 237.49 0)
+			(at 123.19 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18768,7 +18778,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550723991833485312"
-			(at 123.19 237.49 0)
+			(at 123.19 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18777,7 +18787,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 123.19 237.49 0)
+			(at 123.19 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18786,7 +18796,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 123.19 237.49 0)
+			(at 123.19 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
