@@ -6802,6 +6802,12 @@
 		(uuid "076981ac-36c3-4085-96dd-8da442f5d98b")
 	)
 	(junction
+		(at 87.63 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07c99c8a-3f63-41c4-8d24-71d3016aaceb")
+	)
+	(junction
 		(at 322.58 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7809,7 +7815,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 36.83) (xy 92.71 36.83)
+			(xy 82.55 36.83) (xy 87.63 36.83)
 		)
 		(stroke
 			(width 0)
@@ -8689,6 +8695,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 36.83) (xy 92.71 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c027d71-426c-47d2-9da6-f148c33221fd")
+	)
+	(wire
+		(pts
 			(xy 375.92 111.76) (xy 363.22 111.76)
 		)
 		(stroke
@@ -9479,6 +9495,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 30.48) (xy 87.63 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "935e6cc2-9d31-4b86-8e80-a22cfe19f6d2")
+	)
+	(wire
+		(pts
 			(xy 73.66 177.8) (xy 73.66 181.61)
 		)
 		(stroke
@@ -9486,6 +9512,16 @@
 			(type default)
 		)
 		(uuid "93a8637a-e7d2-452a-8fff-4f953b2d03fa")
+	)
+	(wire
+		(pts
+			(xy 273.05 209.55) (xy 281.94 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93caa1a0-c40c-47e7-8715-3f2b413ba136")
 	)
 	(wire
 		(pts
@@ -9626,6 +9662,16 @@
 			(type default)
 		)
 		(uuid "9d7b7173-a384-4be0-912d-8d035f65eb3a")
+	)
+	(wire
+		(pts
+			(xy 87.63 30.48) (xy 87.63 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dbd5651-b5e9-4f1c-bfe7-8c230232d7c9")
 	)
 	(wire
 		(pts
@@ -11367,6 +11413,16 @@
 		)
 		(uuid "121deb6d-23b0-4600-8464-b62e5a71d95c")
 	)
+	(label "VSYS"
+		(at 92.71 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "141db61c-db47-4e07-b196-4161141ec4bc")
+	)
 	(label "GPIO41_ADC1"
 		(at 250.19 218.44 180)
 		(effects
@@ -12436,6 +12492,16 @@
 			(justify right bottom)
 		)
 		(uuid "dba28c50-ce38-4cf1-8bee-25c881ef1813")
+	)
+	(label "VSYS"
+		(at 273.05 209.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc6737ea-27bd-488c-8687-198e41219007")
 	)
 	(label "GPIO14"
 		(at 349.25 123.19 180)
@@ -19700,6 +19766,16 @@
 		(pin "UART1" input
 			(at 281.94 205.74 180)
 			(uuid "640bd0fb-de8d-485d-a662-aa6bc2996ec5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSYS" output
+			(at 281.94 209.55 180)
+			(uuid "935ae249-39dd-4898-803f-a4e5d1d4ebec")
 			(effects
 				(font
 					(size 1.27 1.27)
