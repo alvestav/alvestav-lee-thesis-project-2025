@@ -151,22 +151,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -15.2439 12.7032 0)
+			(property "Reference" "U12"
+				(at 0 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "LIS2DW12TR"
-				(at -15.2494 -17.7909 0)
+				(at 0 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" "LIS2DW12TR:LGA12R50P4X4_200X200X70"
@@ -482,7 +480,7 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 -12.7 180)
+					(at 20.32 -8.89 180)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -684,6 +682,12 @@
 		(color 0 0 0 0)
 		(uuid "7b0f4b10-f83b-4ea0-b9e6-5ad685289b77")
 	)
+	(junction
+		(at 171.45 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcd16105-972b-4a3b-a18f-ee67b5f7fa66")
+	)
 	(wire
 		(pts
 			(xy 171.45 116.84) (xy 171.45 114.3)
@@ -703,6 +707,16 @@
 			(type default)
 		)
 		(uuid "28a7e941-6a53-43f7-9678-bd9e58a0152e")
+	)
+	(wire
+		(pts
+			(xy 171.45 110.49) (xy 171.45 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a74a296-7ae1-437a-9e98-ffea71a9838c")
 	)
 	(wire
 		(pts
@@ -726,6 +740,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 110.49) (xy 171.45 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ea57eab-cf79-46eb-8271-59dcc4e63a6a")
+	)
+	(wire
+		(pts
 			(xy 114.3 101.6) (xy 114.3 81.28)
 		)
 		(stroke
@@ -736,7 +760,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 106.68) (xy 171.45 114.3)
+			(xy 171.45 106.68) (xy 171.45 110.49)
 		)
 		(stroke
 			(width 0)
