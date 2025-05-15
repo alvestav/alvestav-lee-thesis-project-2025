@@ -40469,6 +40469,17 @@
 			(justify right)
 		)
 	)
+	(gr_text "RUN"
+		(at 155.3625 85.875 0)
+		(layer "F.SilkS")
+		(uuid "3c86f9d2-8aad-4802-96e5-0ecd99e8e9f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "GP45"
 		(at 107.6 56.16 0)
 		(layer "F.SilkS")
@@ -40537,6 +40548,17 @@
 			)
 		)
 	)
+	(gr_text "BOOTSEL"
+		(at 134.525 53.8 0)
+		(layer "F.SilkS")
+		(uuid "75b3b757-609b-48a4-a6b2-c318ac99c3eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "Prototype Lab Board\nThesis project in IL142X\nGustav Alvestav\nHein Lee\n15-5-2025"
 		(at 65.95 99.05 270)
 		(layer "F.SilkS")
@@ -40574,7 +40596,7 @@
 		)
 	)
 	(gr_text "Debug\npower"
-		(at 118.9 48.75 0)
+		(at 124.8 53.1 0)
 		(layer "F.SilkS")
 		(uuid "a7510bbc-03f8-49e8-bcc9-8d2c28fa6bc2")
 		(effects
@@ -40608,7 +40630,7 @@
 		)
 	)
 	(gr_text "USB\npower\n"
-		(at 118.75 62.1 0)
+		(at 124.2 58.175 0)
 		(layer "F.SilkS")
 		(uuid "b9ac90bd-e7d0-466b-8fb0-d58bf3250085")
 		(effects
