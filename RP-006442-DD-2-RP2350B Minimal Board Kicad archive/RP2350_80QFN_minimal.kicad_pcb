@@ -8,10 +8,8 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "RP2350B QFN-80 Minimal Design Example")
-		(date "2024-07-04")
-		(rev "REV3")
-		(company "Raspberry Pi Ltd")
+		(title "Alvestav Lee IL142X Thesis Project PCB")
+		(date "2025-05-15")
 	)
 	(layers
 		(0 "F.Cu" signal)
