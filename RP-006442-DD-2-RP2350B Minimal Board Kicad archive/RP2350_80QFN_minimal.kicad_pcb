@@ -40784,6 +40784,18 @@
 			(justify right)
 		)
 	)
+	(gr_text "Debug pins"
+		(at 125.25 84.825 0)
+		(layer "F.SilkS")
+		(uuid "9612cea4-c509-4102-806d-58f774bd973c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "GP44"
 		(at 107.6 58.7 0)
 		(layer "F.SilkS")
