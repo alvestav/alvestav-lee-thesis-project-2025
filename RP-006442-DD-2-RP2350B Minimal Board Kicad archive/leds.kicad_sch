@@ -6917,7 +6917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86a6a254-1982-4851-8055-ebef3b404d8b")
-		(property "Reference" "U13"
+		(property "Reference" "U12"
 			(at 235.8233 31.75 0)
 			(effects
 				(font
@@ -7030,7 +7030,7 @@
 		(instances
 			(project "RP2350_80QFN_minimal"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/c2516de1-a5e0-487a-9315-df4770cb259d"
-					(reference "U13")
+					(reference "U12")
 					(unit 1)
 				)
 			)
