@@ -6456,12 +6456,6 @@
 		(uuid "44a490f8-594f-4a96-ac47-b706300f844a")
 	)
 	(junction
-		(at 121.92 257.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4837be73-6588-468a-86c0-5d1e10e75cbe")
-	)
-	(junction
 		(at 209.55 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7497,7 +7491,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 255.27) (xy 121.92 257.81)
+			(xy 134.62 256.54) (xy 134.62 257.81)
 		)
 		(stroke
 			(width 0)
@@ -7714,6 +7708,16 @@
 			(type default)
 		)
 		(uuid "3f323a78-b4c8-46b1-be70-a0193c984bb1")
+	)
+	(wire
+		(pts
+			(xy 193.04 271.78) (xy 184.15 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41818ab4-f3b9-4c26-a3b5-a8e11e047db6")
 	)
 	(wire
 		(pts
@@ -8907,16 +8911,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 257.81) (xy 134.62 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9354e869-c5ed-4246-a9f2-f73c1b9529e7")
-	)
-	(wire
-		(pts
 			(xy 92.71 30.48) (xy 87.63 30.48)
 		)
 		(stroke
@@ -9704,16 +9698,6 @@
 			(type default)
 		)
 		(uuid "cc67fb5a-668a-4beb-aec0-764e88763f65")
-	)
-	(wire
-		(pts
-			(xy 121.92 260.35) (xy 121.92 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd4fce68-77b7-4554-a454-572e93077dd4")
 	)
 	(wire
 		(pts
@@ -10824,6 +10808,16 @@
 			(justify right bottom)
 		)
 		(uuid "1c9b5482-d404-4a01-92d8-8649059c3511")
+	)
+	(label "a'"
+		(at 193.04 271.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f14372e-9896-4e34-9027-d954217f2327")
 	)
 	(label "GPIO39"
 		(at 363.22 111.76 0)
@@ -18681,7 +18675,7 @@
 	(symbol
 		(lib_name "+3V3_2")
 		(lib_id "power:+3V3")
-		(at 121.92 255.27 0)
+		(at 134.62 256.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18690,7 +18684,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebaa91de-ad90-4132-8212-0ccab3768bde")
 		(property "Reference" "#PWR071"
-			(at 121.92 259.08 0)
+			(at 134.62 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18699,7 +18693,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 121.92 250.19 0)
+			(at 134.62 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18707,7 +18701,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 255.27 0)
+			(at 134.62 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18716,7 +18710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 255.27 0)
+			(at 134.62 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18725,7 +18719,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 121.92 255.27 0)
+			(at 134.62 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19293,6 +19287,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "SA0" input
+			(at 184.15 271.78 0)
+			(uuid "2093a844-323a-4a5a-a4a9-0e320d2d8b11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
