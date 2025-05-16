@@ -2298,6 +2298,14 @@
 				)
 			)
 		)
+		(property "LSCS" ""
+			(at 219.71 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "12"
 			(uuid "f92adde3-e095-4784-8ac1-2acca3ac1445")
 		)
@@ -2397,6 +2405,14 @@
 			)
 		)
 		(property "LCSC" "C5444736"
+			(at 63.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS" ""
 			(at 63.5 91.44 0)
 			(effects
 				(font
@@ -2547,6 +2563,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LSCS" ""
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
