@@ -1838,7 +1838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx08_Slide_9.78x22.5mm_W8.61mm_P2.54mm"
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx08_Slide_Omron_A6S-810x_W8.9mm_P2.54mm"
 			(at 135.89 109.22 0)
 			(effects
 				(font
@@ -1847,7 +1847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/55978-DSIC08LSGET/C54953"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588905267774042112"
 			(at 135.89 109.22 0)
 			(effects
 				(font
