@@ -3,4 +3,5 @@
   (lib (name "MCU_RaspberryPi_RP2350B")(type "KiCad")(uri "${KIPRJMOD}/MCU_RaspberryPi_RP2350B.kicad_sym")(options "")(descr ""))
   (lib (name "MCU_RaspberryPi_RP2350A")(type "KiCad")(uri "${KIPRJMOD}/MCU_RaspberryPi_RP2350A.kicad_sym")(options "")(descr ""))
   (lib (name "LIS2DW12TR")(type "KiCad")(uri "${KIPRJMOD}/LIS2DW12TR.kicad_sym")(options "")(descr ""))
+  (lib (name "W25Q128JVSIQ")(type "KiCad")(uri "${KIPRJMOD}/W25Q128JVSIQ.kicad_sym")(options "")(descr ""))
 )

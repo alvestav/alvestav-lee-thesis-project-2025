@@ -8277,7 +8277,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C1548"
 			(at 69.85 241.3 0)
 			(effects
 				(font
@@ -8513,7 +8513,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C54953"
+		(property "LCSC" "C165948"
 			(at 50.8 73.66 0)
 			(effects
 				(font
@@ -8644,7 +8644,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C1548"
 			(at 69.85 251.46 0)
 			(effects
 				(font
@@ -9191,7 +9191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "W25Q128JVSIQ:SOIC127P790X216-8N"
 			(at 72.39 185.42 0)
 			(effects
 				(font
