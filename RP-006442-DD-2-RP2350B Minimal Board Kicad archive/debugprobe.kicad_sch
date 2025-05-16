@@ -7626,6 +7626,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 326.39 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e4d8dfc-7ec7-4e51-bfda-aaebd42aef72")
 		)
@@ -7760,6 +7769,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 257.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc3234c6-4edd-4d89-99f1-fb2211fae59e")
 		)
@@ -7886,6 +7904,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 314.96 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 314.96 85.09 0)
 			(effects
 				(font
@@ -8366,6 +8393,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 50.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C54953"
 			(at 50.8 73.66 0)
 			(effects
 				(font
@@ -9109,6 +9145,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 78.74 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1330a4ee-5aa3-4417-9a4d-9028c8cbe51c")
 		)
@@ -9320,6 +9365,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 269.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e69b9970-7780-4752-a39f-fe2616f12e3c")
 		)
@@ -9448,6 +9502,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 200.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 200.66 85.09 0)
 			(effects
 				(font
@@ -9915,6 +9978,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 77.47 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8e0f1ae-d600-40f5-9daf-852e1ce3bca8")
 		)
@@ -10041,6 +10113,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 177.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 177.8 85.09 0)
 			(effects
 				(font
@@ -10855,6 +10936,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 303.53 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "838687e8-4768-4f22-99a2-e64ebea634a2")
 		)
@@ -11170,6 +11260,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C520835"
+			(at 93.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc22b83d-265e-4445-9da2-cac13ccf8b2e")
 		)
@@ -11443,6 +11542,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 280.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c60c4dd4-ac86-4331-8326-12610fb69269")
 		)
@@ -11512,6 +11620,15 @@
 				(hide yes)
 			)
 		)
+		(property "LSCS" "C179432"
+			(at 83.82 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2a69a174-aa9d-4643-9117-89ddbae66a1b")
 		)
@@ -11573,6 +11690,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 292.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 292.1 85.09 0)
 			(effects
 				(font
@@ -11784,6 +11910,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 69.85 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "940138c2-e15d-4af9-96bb-902bb77960b5")
 		)
@@ -11973,6 +12108,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 114.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C26537"
 			(at 114.3 58.42 0)
 			(effects
 				(font

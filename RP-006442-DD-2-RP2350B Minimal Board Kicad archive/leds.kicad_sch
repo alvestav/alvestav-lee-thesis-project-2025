@@ -3481,7 +3481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23906-0603WAF4700T5E/C23179"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25860-0402WGF4700TCE/C25117"
 			(at 228.6 140.97 0)
 			(effects
 				(font
@@ -3491,6 +3491,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 228.6 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25117"
 			(at 228.6 140.97 0)
 			(effects
 				(font
@@ -4029,6 +4038,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25117"
+			(at 182.88 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f9a9cf4-5cbd-4ffe-bfd4-2ea0b38d4a6c")
 		)
@@ -4089,6 +4107,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 182.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25117"
+			(at 182.88 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4593,6 +4620,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25117"
+			(at 137.16 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c60a86f-96b9-463a-bcd4-708ac3ab460f")
 		)
@@ -4719,7 +4755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23906-0603WAF4700T5E/C23179"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25860-0402WGF4700TCE/C25117"
 			(at 228.6 102.87 0)
 			(effects
 				(font
@@ -4730,6 +4766,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 228.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25117"
+			(at 228.6 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4881,6 +4926,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25117"
+			(at 182.88 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eee5eed1-9e53-4264-9a28-8edfb0b87603")
 		)
@@ -5018,6 +5072,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 182.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25117"
+			(at 182.88 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5246,6 +5309,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25117"
+			(at 182.88 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e130745-6bf8-4c4b-96e5-67d8183311b0")
 		)
@@ -5307,6 +5379,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 81.28 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 81.28 24.13 0)
 			(effects
 				(font
@@ -5616,6 +5697,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5947"
+			(at 86.36 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "6c078891-ed3c-483f-b8a2-5789f9983f29")
 		)
@@ -5784,7 +5874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23906-0603WAF4700T5E/C23179"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25860-0402WGF4700TCE/C25117"
 			(at 228.6 95.25 0)
 			(effects
 				(font
@@ -5795,6 +5885,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 228.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25117"
+			(at 228.6 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5871,6 +5970,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 157.48 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "29efd681-e928-4f98-a1da-118cfa2e5aea")
 		)
@@ -5920,7 +6028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23906-0603WAF4700T5E/C23179"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25860-0402WGF4700TCE/C25117"
 			(at 228.6 125.73 0)
 			(effects
 				(font
@@ -5930,6 +6038,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 228.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25117"
 			(at 228.6 125.73 0)
 			(effects
 				(font
@@ -6082,6 +6199,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25117"
+			(at 137.16 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a6606f0-6f95-4925-b2e5-295033d49efe")
 		)
@@ -6149,6 +6275,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25117"
+			(at 182.88 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "96c396cf-7e0e-408c-8c94-ad91fc501f18")
 		)
@@ -6198,7 +6333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23906-0603WAF4700T5E/C23179"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25860-0402WGF4700TCE/C25117"
 			(at 228.6 110.49 0)
 			(effects
 				(font
@@ -6208,6 +6343,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 228.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25117"
 			(at 228.6 110.49 0)
 			(effects
 				(font
@@ -6265,7 +6409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23906-0603WAF4700T5E/C23179"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25860-0402WGF4700TCE/C25117"
 			(at 228.6 87.63 0)
 			(effects
 				(font
@@ -6276,6 +6420,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25117"
+			(at 228.6 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6345,6 +6498,15 @@
 			)
 		)
 		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 233.68 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5947"
 			(at 233.68 49.53 0)
 			(effects
 				(font
@@ -6539,6 +6701,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25117"
+			(at 137.16 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b5f824e-41ca-47c6-adf1-9691c5b4cdaa")
 		)
@@ -6608,6 +6779,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 223.52 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "af80520f-158d-492a-b328-14262c95fb1e")
 		)
@@ -6668,6 +6848,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 182.88 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25117"
+			(at 182.88 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6790,7 +6979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23906-0603WAF4700T5E/C23179"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25860-0402WGF4700TCE/C25117"
 			(at 228.6 118.11 0)
 			(effects
 				(font
@@ -6800,6 +6989,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 228.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25117"
 			(at 228.6 118.11 0)
 			(effects
 				(font
@@ -7213,6 +7411,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25117"
+			(at 137.16 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3de5208-8a98-42dc-b483-f05b0865bcd8")
 		)
@@ -7280,6 +7487,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25117"
+			(at 137.16 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0742f92d-4ac8-46e8-a8c3-1318f32544f8")
 		)
@@ -7340,6 +7556,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 137.16 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25117"
+			(at 137.16 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7550,6 +7775,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 137.16 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25117"
+			(at 137.16 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7856,6 +8090,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25117"
+			(at 137.16 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5918d921-22c7-4b30-8668-85f71ce4b151")
 		)
@@ -8072,6 +8315,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5947"
+			(at 162.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "9fb596dc-6559-4e66-9d94-9369d9dd6ff9")
 		)
@@ -8174,6 +8426,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 182.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25117"
+			(at 182.88 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8296,7 +8557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23906-0603WAF4700T5E/C23179"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25860-0402WGF4700TCE/C25117"
 			(at 228.6 133.35 0)
 			(effects
 				(font
@@ -8306,6 +8567,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 228.6 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25117"
 			(at 228.6 133.35 0)
 			(effects
 				(font

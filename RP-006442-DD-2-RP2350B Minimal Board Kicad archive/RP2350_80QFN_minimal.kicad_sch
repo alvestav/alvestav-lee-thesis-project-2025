@@ -12597,6 +12597,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 73.66 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57d7e39e-6ef9-420d-a7e7-87173ec0f017")
 		)
@@ -13060,6 +13069,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 251.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10504978-2ae4-4b75-b20f-30dc13378930")
 		)
@@ -13121,6 +13139,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 262.89 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 262.89 66.04 0)
 			(effects
 				(font
@@ -13198,6 +13225,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 274.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8f3bad6-8352-4653-9de3-4c2be02cc87b")
 		)
@@ -13259,6 +13295,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 285.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 285.75 66.04 0)
 			(effects
 				(font
@@ -13336,6 +13381,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 297.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6195ca3c-f306-438a-bc57-aa1092e3e238")
 		)
@@ -13405,6 +13459,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 308.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58f070d4-9c18-4c2c-b46f-b81eb051f5c7")
 		)
@@ -13464,6 +13527,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 110.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C26537"
 			(at 110.49 36.83 0)
 			(effects
 				(font
@@ -14676,6 +14748,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 63.5 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9495c40-7cf7-41fc-98c0-df86fef55eb1")
 		)
@@ -14802,6 +14883,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 166.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 166.37 66.04 0)
 			(effects
 				(font
@@ -14946,6 +15036,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c47e95f-1cf6-4b63-9b33-51445a722bf7")
 		)
@@ -15007,6 +15106,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 320.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 320.04 66.04 0)
 			(effects
 				(font
@@ -15207,6 +15315,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 44.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C54953"
 			(at 44.45 52.07 0)
 			(effects
 				(font
@@ -16490,6 +16607,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 121.92 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "758809a0-f11d-4a5e-8d7d-51b35ca90838")
 		)
@@ -16683,6 +16809,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 143.51 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 143.51 66.04 0)
 			(effects
 				(font
@@ -16890,6 +17025,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 228.6 66.04 0)
 			(effects
 				(font
@@ -18078,6 +18222,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 72.39 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99b87b32-a581-4b3a-b8cc-61c9c12244aa")
 		)
@@ -18415,6 +18568,15 @@
 			)
 		)
 		(property "Description" "60V, 1A low leakage current MEGA Schottky barrier rectifier, SOD-123W"
+			(at 78.74 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" "C179432"
 			(at 78.74 36.83 0)
 			(effects
 				(font
