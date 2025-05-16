@@ -44976,8 +44976,8 @@
 			(justify right)
 		)
 	)
-	(gr_text "GPIO1"
-		(at 124.8 74.08 0)
+	(gr_text "UART Rx"
+		(at 124 74.08 0)
 		(layer "F.SilkS")
 		(uuid "4ce460b1-4331-4fa5-b242-dbcccdbd552d")
 		(effects
@@ -45185,8 +45185,8 @@
 			(justify right)
 		)
 	)
-	(gr_text "GPIO0"
-		(at 124.8 76.62 0)
+	(gr_text "UART Tx"
+		(at 124 76.62 0)
 		(layer "F.SilkS")
 		(uuid "f8da0aea-b5fc-4a4b-819d-2b6e9a644308")
 		(effects
