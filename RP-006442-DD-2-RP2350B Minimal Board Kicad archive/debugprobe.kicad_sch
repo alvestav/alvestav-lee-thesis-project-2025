@@ -11764,15 +11764,6 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
-			(at 83.82 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C179432"
 			(at 83.82 58.42 0)
 			(effects
