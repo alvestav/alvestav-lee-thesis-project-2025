@@ -1318,6 +1318,14 @@
 				)
 			)
 		)
+		(property "LSCS" ""
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "9f4ecbd5-dedc-4624-9165-680e466c312c")
 		)
@@ -1461,6 +1469,14 @@
 				)
 			)
 		)
+		(property "LSCS" ""
+			(at 88.9 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2a9dce41-5f04-45d9-928c-8b3b6d3f5859")
 		)
@@ -1557,6 +1573,14 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 100.33 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS" ""
 			(at 100.33 62.23 0)
 			(effects
 				(font
@@ -1725,6 +1749,14 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS" ""
 			(at 106.68 69.85 0)
 			(effects
 				(font
