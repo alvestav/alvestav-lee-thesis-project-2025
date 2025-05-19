@@ -66,6 +66,17 @@
 		)
 	)
 	(attr smd)
+	(fp_rect
+		(start -3.8 -7.8)
+		(end 3.8 7.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d7a8f91b-1eed-4bec-859d-a8bcf9bdadfc")
+	)
 	(fp_line
 		(start -3 5)
 		(end -3 5.5)

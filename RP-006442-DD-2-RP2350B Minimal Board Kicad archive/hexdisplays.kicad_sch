@@ -1927,7 +1927,7 @@
 	)
 	(text "SDA är I2C interface serial data input/output\nSCL är I2C interface serial clock input"
 		(exclude_from_sim no)
-		(at 141.986 99.822 0)
+		(at 150.368 106.426 0)
 		(effects
 			(font
 				(size 1.27 1.27)
