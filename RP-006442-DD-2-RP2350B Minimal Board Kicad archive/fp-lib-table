@@ -4,4 +4,5 @@
   (lib (name "RP2350_60QFN_minimal")(type "KiCad")(uri "${KIPRJMOD}/RP2350_60QFN_minimal.pretty")(options "")(descr ""))
   (lib (name "LIS2DW12TR")(type "KiCad")(uri "${KIPRJMOD}/LIS2DW12TR.pretty")(options "")(descr ""))
   (lib (name "MMA8451QR1")(type "KiCad")(uri "${KIPRJMOD}/MMA8451QR1.pretty")(options "")(descr ""))
+  (lib (name "GS3011CR-G")(type "KiCad")(uri "${KIPRJMOD}/GS3011CR-G.pretty")(options "")(descr ""))
 )

@@ -3440,7 +3440,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 236.22 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 236.22 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 236.22 125.73 0)
 			(effects
 				(font
@@ -3524,7 +3540,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 228.6 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 228.6 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 228.6 140.97 0)
 			(effects
 				(font
@@ -3617,7 +3649,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 144.78 93.98 0)
 			(effects
 				(font
@@ -3710,7 +3758,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 144.78 86.36 0)
 			(effects
 				(font
@@ -3803,7 +3867,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 190.5 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 190.5 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 190.5 109.22 0)
 			(effects
 				(font
@@ -3896,7 +3976,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 144.78 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 144.78 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 144.78 132.08 0)
 			(effects
 				(font
@@ -3989,7 +4085,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 190.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 190.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 190.5 124.46 0)
 			(effects
 				(font
@@ -4083,7 +4195,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 68.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 68.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 68.58 113.03 0)
 			(effects
 				(font
@@ -4167,7 +4295,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 182.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 182.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 182.88 93.98 0)
 			(effects
 				(font
@@ -4251,7 +4395,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 182.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 182.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 182.88 109.22 0)
 			(effects
 				(font
@@ -4344,7 +4504,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 144.78 101.6 0)
 			(effects
 				(font
@@ -4570,7 +4746,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 68.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 68.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 68.58 124.46 0)
 			(effects
 				(font
@@ -4663,7 +4855,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 236.22 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 236.22 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 236.22 133.35 0)
 			(effects
 				(font
@@ -4813,7 +5021,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 137.16 101.6 0)
 			(effects
 				(font
@@ -4906,7 +5130,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 190.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 190.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 190.5 116.84 0)
 			(effects
 				(font
@@ -4990,7 +5230,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 228.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 228.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 228.6 102.87 0)
 			(effects
 				(font
@@ -5083,7 +5339,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 144.78 116.84 0)
 			(effects
 				(font
@@ -5167,7 +5439,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 182.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 182.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 182.88 101.6 0)
 			(effects
 				(font
@@ -5260,7 +5548,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 144.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 144.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 144.78 139.7 0)
 			(effects
 				(font
@@ -5344,7 +5648,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 182.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 182.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 182.88 139.7 0)
 			(effects
 				(font
@@ -5437,7 +5757,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 236.22 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 236.22 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 236.22 118.11 0)
 			(effects
 				(font
@@ -5530,7 +5866,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 190.5 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 190.5 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 190.5 132.08 0)
 			(effects
 				(font
@@ -5614,7 +5966,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 182.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 182.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 182.88 116.84 0)
 			(effects
 				(font
@@ -5700,7 +6068,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 81.28 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 81.28 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 81.28 24.13 0)
 			(effects
 				(font
@@ -5793,7 +6177,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 190.5 101.6 0)
 			(effects
 				(font
@@ -5886,7 +6286,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 236.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 236.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 236.22 110.49 0)
 			(effects
 				(font
@@ -5979,7 +6395,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 236.22 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 236.22 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 236.22 102.87 0)
 			(effects
 				(font
@@ -6066,7 +6498,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 86.36 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 86.36 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 86.36 49.53 0)
 			(effects
 				(font
@@ -6201,7 +6649,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 144.78 124.46 0)
 			(effects
 				(font
@@ -6285,7 +6749,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 228.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 228.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 228.6 95.25 0)
 			(effects
 				(font
@@ -6371,7 +6851,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 157.48 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 157.48 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 157.48 25.4 0)
 			(effects
 				(font
@@ -6455,7 +6951,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 228.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 228.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 228.6 125.73 0)
 			(effects
 				(font
@@ -6548,7 +7060,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 190.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 190.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 190.5 93.98 0)
 			(effects
 				(font
@@ -6632,7 +7160,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 137.16 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 137.16 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 137.16 132.08 0)
 			(effects
 				(font
@@ -6716,7 +7260,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 182.88 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 182.88 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 182.88 132.08 0)
 			(effects
 				(font
@@ -6800,7 +7360,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 228.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 228.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 228.6 110.49 0)
 			(effects
 				(font
@@ -6884,7 +7460,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 228.6 87.63 0)
 			(effects
 				(font
@@ -6971,7 +7563,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 233.68 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 233.68 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 233.68 49.53 0)
 			(effects
 				(font
@@ -7106,7 +7714,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 236.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 236.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 236.22 87.63 0)
 			(effects
 				(font
@@ -7190,7 +7814,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 137.16 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 137.16 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 137.16 139.7 0)
 			(effects
 				(font
@@ -7276,7 +7916,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 223.52 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 223.52 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 223.52 25.4 0)
 			(effects
 				(font
@@ -7360,7 +8016,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 182.88 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 182.88 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 182.88 86.36 0)
 			(effects
 				(font
@@ -7510,7 +8182,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 228.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 228.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 228.6 118.11 0)
 			(effects
 				(font
@@ -7663,7 +8351,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 58.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 58.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 58.42 124.46 0)
 			(effects
 				(font
@@ -7814,7 +8518,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 58.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 58.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 58.42 113.03 0)
 			(effects
 				(font
@@ -7964,7 +8684,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 137.16 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 137.16 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 137.16 86.36 0)
 			(effects
 				(font
@@ -8048,7 +8784,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 137.16 93.98 0)
 			(effects
 				(font
@@ -8132,7 +8884,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 137.16 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 137.16 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 137.16 116.84 0)
 			(effects
 				(font
@@ -8225,7 +8993,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 144.78 109.22 0)
 			(effects
 				(font
@@ -8375,7 +9159,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 137.16 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 137.16 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 137.16 124.46 0)
 			(effects
 				(font
@@ -8468,7 +9268,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 236.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 236.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 236.22 95.25 0)
 			(effects
 				(font
@@ -8562,7 +9378,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 68.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 68.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 68.58 100.33 0)
 			(effects
 				(font
@@ -8655,7 +9487,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 190.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 190.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 190.5 139.7 0)
 			(effects
 				(font
@@ -8739,7 +9587,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 137.16 109.22 0)
 			(effects
 				(font
@@ -8832,7 +9696,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 190.5 86.36 0)
 			(effects
 				(font
@@ -8917,7 +9797,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 58.42 100.33 0)
 			(effects
 				(font
@@ -9004,7 +9900,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 162.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 162.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 162.56 49.53 0)
 			(effects
 				(font
@@ -9130,7 +10042,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 182.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 182.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 182.88 124.46 0)
 			(effects
 				(font
@@ -9280,7 +10208,23 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 228.6 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 228.6 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 228.6 133.35 0)
 			(effects
 				(font
@@ -9373,7 +10317,23 @@
 				)
 			)
 		)
-		(property "LSCS" ""
+		(property "MANUFACTURER" ""
+			(at 236.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 236.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 236.22 140.97 0)
 			(effects
 				(font

@@ -5,4 +5,5 @@
   (lib (name "LIS2DW12TR")(type "KiCad")(uri "${KIPRJMOD}/LIS2DW12TR.kicad_sym")(options "")(descr ""))
   (lib (name "W25Q128JVSIQ")(type "KiCad")(uri "${KIPRJMOD}/W25Q128JVSIQ.kicad_sym")(options "")(descr ""))
   (lib (name "MMA8451QR1")(type "KiCad")(uri "${KIPRJMOD}/MMA8451QR1.kicad_sym")(options "")(descr ""))
+  (lib (name "GS3011CR-G")(type "KiCad")(uri "${KIPRJMOD}/GS3011CR-G.kicad_sym")(options "")(descr ""))
 )
