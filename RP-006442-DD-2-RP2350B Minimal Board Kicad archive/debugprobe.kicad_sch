@@ -4263,7 +4263,7 @@
 	)
 	(text "Power"
 		(exclude_from_sim no)
-		(at 65.532 46.736 0)
+		(at 65.024 42.926 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4578,6 +4578,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccb13968-7129-4cbf-a77a-4e044ff26b8d")
+	)
+	(junction
+		(at 162.56 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd3b074c-5198-4c0e-b4a8-3193140bb4f8")
 	)
 	(junction
 		(at 212.09 100.33)
@@ -5188,6 +5194,16 @@
 			(type default)
 		)
 		(uuid "4037d235-509c-478d-9c4c-b540f1d85d96")
+	)
+	(wire
+		(pts
+			(xy 162.56 121.92) (xy 168.91 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40cf940e-27e0-4785-a3ba-8a7fe484c806")
 	)
 	(wire
 		(pts
@@ -6491,7 +6507,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 121.92) (xy 168.91 121.92)
+			(xy 153.67 121.92) (xy 162.56 121.92)
 		)
 		(stroke
 			(width 0)
@@ -13036,6 +13052,72 @@
 			(project "RP2350_80QFN_minimal"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/500e1af8-c8c5-44c6-9fbe-f4d5e5ab4ca8"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 162.56 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3a8811b-9d1d-4bc2-be5a-cca94daa3bad")
+		(property "Reference" "#FLG05"
+			(at 162.56 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 162.56 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54667ce5-963e-47ae-b15e-ebf3dbd70281")
+		)
+		(instances
+			(project ""
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8/500e1af8-c8c5-44c6-9fbe-f4d5e5ab4ca8"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
