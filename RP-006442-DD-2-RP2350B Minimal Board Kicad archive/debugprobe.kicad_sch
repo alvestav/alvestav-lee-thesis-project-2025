@@ -12343,7 +12343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_HRO_K3-1235S-K1"
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_G-Switch_MK-12C03-G015"
 			(at 93.98 40.64 0)
 			(effects
 				(font
@@ -12370,7 +12370,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C520835"
+		(property "LCSC" "C2890358"
 			(at 93.98 40.64 0)
 			(effects
 				(font

@@ -3517,7 +3517,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1844d2ea-1667-40ee-8246-63b033219ba8")
 		(property "Reference" "U9"
