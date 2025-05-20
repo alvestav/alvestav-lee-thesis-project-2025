@@ -43450,8 +43450,18 @@
 		(path "/a329b4e6-f1a1-4475-a8ed-89dd27d5df01/31595258-92a2-43b9-9512-e90df2a542a9")
 		(sheetname "/Accelerometer/")
 		(sheetfile "accelerometer.kicad_sch")
-		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
+		(fp_rect
+			(start -1.8 -1.8)
+			(end 1.8 1.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "1bb6f49c-19f3-4b09-92d6-5050dc44553e")
+		)
 		(fp_line
 			(start -1.4986 1.4986)
 			(end 1.4986 1.4986)
@@ -43669,7 +43679,6 @@
 			(net 183 "+3V3_A")
 			(pinfunction "VDDIO")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "a7cfb874-54a8-4e69-ba2b-272a5583fc27")
 		)
 		(pad "2" smd rect
@@ -43679,7 +43688,6 @@
 			(net 205 "Net-(U13-BYP)")
 			(pinfunction "BYP")
 			(pintype "input")
-			(solder_mask_margin 0.102)
 			(uuid "ac29e49f-ce76-4dcc-acf0-f785e1c76e9b")
 		)
 		(pad "3" smd rect
@@ -43689,7 +43697,6 @@
 			(net 210 "unconnected-(U13-NC_2-Pad3)")
 			(pinfunction "NC_2")
 			(pintype "no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "6f96e344-a498-4464-afcb-1b594f5aeb1c")
 		)
 		(pad "4" smd rect
@@ -43699,7 +43706,6 @@
 			(net 28 "/GPIO21")
 			(pinfunction "SCL")
 			(pintype "input")
-			(solder_mask_margin 0.102)
 			(uuid "45a28977-f594-4deb-b008-0a4478ac1c13")
 		)
 		(pad "5" smd rect
@@ -43709,7 +43715,6 @@
 			(net 1 "GND")
 			(pinfunction "GND_3")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "95b27c43-a522-4bfc-b6d7-3f128e0c5bd0")
 		)
 		(pad "6" smd rect
@@ -43719,7 +43724,6 @@
 			(net 29 "/GPIO20")
 			(pinfunction "SDA")
 			(pintype "input")
-			(solder_mask_margin 0.102)
 			(uuid "9fefe7c7-a539-460c-974a-93d911f84608")
 		)
 		(pad "7" smd rect
@@ -43729,7 +43733,6 @@
 			(net 1 "GND")
 			(pinfunction "SA0")
 			(pintype "input")
-			(solder_mask_margin 0.102)
 			(uuid "248f233d-dcbf-4d7b-8626-46441fed1b03")
 		)
 		(pad "8" smd rect
@@ -43739,7 +43742,6 @@
 			(net 209 "unconnected-(U13-NC_5-Pad8)")
 			(pinfunction "NC_5")
 			(pintype "no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "0b902037-f8d5-4c5b-852d-38aee20c4852")
 		)
 		(pad "9" smd rect
@@ -43749,7 +43751,6 @@
 			(net 30 "/GPIO19")
 			(pinfunction "INT2")
 			(pintype "output")
-			(solder_mask_margin 0.102)
 			(uuid "de06c245-0bbe-48a3-a9f6-e2ef39ca5f82")
 		)
 		(pad "10" smd rect
@@ -43759,7 +43760,6 @@
 			(net 1 "GND")
 			(pinfunction "GND_2")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "8295b68a-81b6-40a4-95a4-996a53191558")
 		)
 		(pad "11" smd rect
@@ -43769,7 +43769,6 @@
 			(net 31 "/GPIO18")
 			(pinfunction "INT1")
 			(pintype "output")
-			(solder_mask_margin 0.102)
 			(uuid "99b4fdee-3c78-405a-b0ed-6863c54f5db2")
 		)
 		(pad "12" smd rect
@@ -43779,7 +43778,6 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
 			(uuid "a40aeb4d-8e73-488c-b8c3-dfab489220e9")
 		)
 		(pad "13" smd rect
@@ -43789,7 +43787,6 @@
 			(net 212 "unconnected-(U13-NC_3-Pad13)")
 			(pinfunction "NC_3")
 			(pintype "no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "f9e24b86-30e2-4233-8784-413c4f3bce13")
 		)
 		(pad "14" smd rect
@@ -43799,7 +43796,6 @@
 			(net 183 "+3V3_A")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(solder_mask_margin 0.102)
 			(uuid "fdb7bc2b-d394-4159-b1b9-f314eb5e38cb")
 		)
 		(pad "15" smd rect
@@ -43809,7 +43805,6 @@
 			(net 211 "unconnected-(U13-NC_4-Pad15)")
 			(pinfunction "NC_4")
 			(pintype "no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "b9e1670b-1472-40c4-b62d-ee4d970217b3")
 		)
 		(pad "16" smd rect
@@ -43819,7 +43814,6 @@
 			(net 208 "unconnected-(U13-NC-Pad16)")
 			(pinfunction "NC")
 			(pintype "no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "0ae77279-9a90-49e4-8792-5f7e665f099e")
 		)
 		(embedded_fonts no)
