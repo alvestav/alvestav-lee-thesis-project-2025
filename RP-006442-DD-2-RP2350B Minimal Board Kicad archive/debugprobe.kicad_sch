@@ -8723,7 +8723,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" ""
@@ -8743,14 +8742,6 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 50.8 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LSCS" ""
 			(at 50.8 73.66 0)
 			(effects
 				(font
@@ -10160,7 +10151,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" ""
@@ -10180,14 +10170,6 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 200.66 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LSCS" ""
 			(at 200.66 85.09 0)
 			(effects
 				(font
@@ -10700,7 +10682,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" ""
@@ -10875,7 +10856,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" ""
@@ -10895,14 +10875,6 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 177.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LSCS" ""
 			(at 177.8 85.09 0)
 			(effects
 				(font
@@ -12376,7 +12348,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" ""
@@ -13397,7 +13368,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" ""
@@ -13635,7 +13605,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" ""

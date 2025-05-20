@@ -18563,7 +18563,7 @@
 				(extension_offset 0.5)
 				(keep_text_aligned yes)
 			)
-			(gr_text "15.5"
+			(gr_text "15,5"
 				(at 90.5 131 90)
 				(layer "Cmts.User")
 				(uuid "1c80b80b-5698-4bd7-812b-617a0cb55bb9")
@@ -18639,7 +18639,7 @@
 				(extension_offset 0.5)
 				(keep_text_aligned yes)
 			)
-			(gr_text "12.5"
+			(gr_text "12,5"
 				(at 87.45 131 90)
 				(layer "Cmts.User")
 				(uuid "789e6c9f-440e-4915-bb25-24401149745d")
@@ -18677,7 +18677,7 @@
 				(extension_offset 0.5)
 				(keep_text_aligned yes)
 			)
-			(gr_text "9.5"
+			(gr_text "9,5"
 				(at 85.15 131 90)
 				(layer "Cmts.User")
 				(uuid "8160fe21-746d-40ee-9a07-43d9c86f7cab")
@@ -20402,7 +20402,7 @@
 				(extension_offset 0.5)
 				(keep_text_aligned yes)
 			)
-			(gr_text "9.5"
+			(gr_text "9,5"
 				(at 76.75 131 90)
 				(layer "Cmts.User")
 				(uuid "387cf5b5-5a29-40f8-be3d-175059851535")
@@ -20440,7 +20440,7 @@
 				(extension_offset 0.5)
 				(keep_text_aligned yes)
 			)
-			(gr_text "12.5"
+			(gr_text "12,5"
 				(at 79.05 131 90)
 				(layer "Cmts.User")
 				(uuid "5082394d-17f4-4c9e-9d89-36fdcbc39df2")
@@ -20478,7 +20478,7 @@
 				(extension_offset 0.5)
 				(keep_text_aligned yes)
 			)
-			(gr_text "15.5"
+			(gr_text "15,5"
 				(at 82.1 131 90)
 				(layer "Cmts.User")
 				(uuid "7b82724a-2a96-4018-a79c-3db97f3b7c35")
@@ -26796,7 +26796,7 @@
 				(extension_offset 0.5)
 				(keep_text_aligned yes)
 			)
-			(gr_text "12.5"
+			(gr_text "12,5"
 				(at 95.85 131 90)
 				(layer "Cmts.User")
 				(uuid "16c9fc94-1960-4d39-a53a-cd59369a6ced")
@@ -26834,7 +26834,7 @@
 				(extension_offset 0.5)
 				(keep_text_aligned yes)
 			)
-			(gr_text "15.5"
+			(gr_text "15,5"
 				(at 98.9 131 90)
 				(layer "Cmts.User")
 				(uuid "29250313-0421-4988-b46e-ebdda64517da")
@@ -26910,7 +26910,7 @@
 				(extension_offset 0.5)
 				(keep_text_aligned yes)
 			)
-			(gr_text "9.5"
+			(gr_text "9,5"
 				(at 93.55 131 90)
 				(layer "Cmts.User")
 				(uuid "e5078f84-bb4d-4449-bb5e-6b0ccb8c0d4b")
@@ -30443,7 +30443,7 @@
 				(extension_offset 0.5)
 				(keep_text_aligned yes)
 			)
-			(gr_text "12.5"
+			(gr_text "12,5"
 				(at 104.25 131 90)
 				(layer "Cmts.User")
 				(uuid "2fde165b-76be-40d4-a3aa-55cabd87ae63")
@@ -30481,7 +30481,7 @@
 				(extension_offset 0.5)
 				(keep_text_aligned yes)
 			)
-			(gr_text "9.5"
+			(gr_text "9,5"
 				(at 101.95 131 90)
 				(layer "Cmts.User")
 				(uuid "4e65269b-c977-4daa-9f18-1aa18b8798d7")
@@ -30519,7 +30519,7 @@
 				(extension_offset 0.5)
 				(keep_text_aligned yes)
 			)
-			(gr_text "15.5"
+			(gr_text "15,5"
 				(at 107.3 131 90)
 				(layer "Cmts.User")
 				(uuid "6afb4c60-018c-494d-b527-27cadb4e9d4c")
@@ -43447,6 +43447,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C11360"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6fbef13-e0a6-44dd-ac22-458a3af35c21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/a329b4e6-f1a1-4475-a8ed-89dd27d5df01/31595258-92a2-43b9-9512-e90df2a542a9")
 		(sheetname "/Accelerometer/")
 		(sheetfile "accelerometer.kicad_sch")
@@ -53283,7 +53296,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "12.7000 mm"
+		(gr_text "12,7000 mm"
 			(at 92.35 148.2725 0)
 			(layer "Cmts.User")
 			(uuid "12b1fc5b-c971-40f6-be4c-134ca98b4eb2")
@@ -53320,7 +53333,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "2.0000 mm"
+		(gr_text "2,0000 mm"
 			(at 63.95 117.8 90)
 			(layer "Cmts.User")
 			(uuid "17570e2a-6b01-4541-b07e-a5e46b1c0fdd")
@@ -53357,7 +53370,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "17.7700 mm"
+		(gr_text "17,7700 mm"
 			(at 87.185 101.3 0)
 			(layer "Cmts.User")
 			(uuid "3420fd02-f2a3-49f0-a940-a23a2b4553fd")
@@ -53394,7 +53407,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "10.4000 mm"
+		(gr_text "10,4000 mm"
 			(at 104.31 102.45 90)
 			(layer "Cmts.User")
 			(uuid "4aac28aa-7172-4456-ad6e-f4b1e9579e74")
@@ -53431,7 +53444,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "50.3000 mm"
+		(gr_text "50,3000 mm"
 			(at 92.35 144.32 0)
 			(layer "Cmts.User")
 			(uuid "4b8320e4-3517-4ef8-aade-1a3f8e939612")
@@ -53468,7 +53481,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "19.0000 mm"
+		(gr_text "19,0000 mm"
 			(at 69.84 130.38 90)
 			(layer "Cmts.User")
 			(uuid "7f1ccc63-2056-43a9-b5b4-a349ebfb798e")
@@ -53505,7 +53518,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "2.5400 mm"
+		(gr_text "2,5400 mm"
 			(at 79.57 96.22 0)
 			(layer "Cmts.User")
 			(uuid "a1f4d97c-911b-47c6-8599-7753e1a77264")
@@ -53542,7 +53555,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "7.4000 mm"
+		(gr_text "7,4000 mm"
 			(at 100.68 102.45 90)
 			(layer "Cmts.User")
 			(uuid "b03d98cd-2e2e-4a37-ad77-ead8e06c8b50")
@@ -53579,7 +53592,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "15.2275 mm"
+		(gr_text "15,2275 mm"
 			(at 79.325 130.38625 90)
 			(layer "Cmts.User")
 			(uuid "cd5a1b5f-8cbe-4ee0-87d4-1d243ffbd58e")
@@ -53616,7 +53629,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "100.0000 mm"
+		(gr_text "100,0000 mm"
 			(at 180.55 95.05 90)
 			(layer "Cmts.User")
 			(uuid "d7ba4be9-d29b-4296-a872-dc48f55d4e39")
@@ -53653,7 +53666,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "99.4000 mm"
+		(gr_text "99,4000 mm"
 			(at 111.85 36.55 0)
 			(layer "Cmts.User")
 			(uuid "dfd67dc7-8390-4f81-a169-4eede88732ba")
@@ -53690,7 +53703,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "5.0000 mm"
+		(gr_text "5,0000 mm"
 			(at 74.1 142.5 90)
 			(layer "Cmts.User")
 			(uuid "f2cd613f-1d4d-4c40-9f92-f8d708e00b66")
