@@ -11373,7 +11373,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "f7ef2b2b-04e4-4189-9092-c83ea2808c15")
+			(uuid "f48f19fe-4447-4132-a6fa-96f82463c9fe")
 		)
 		(pad "2" smd rect
 			(at -4.3 2.25)
@@ -11393,7 +11393,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "a70d1950-3718-4418-acff-eb69f16410fb")
+			(uuid "43a5d976-2a10-482f-838e-42f74740a5e5")
 		)
 		(embedded_fonts no)
 	)
@@ -13362,7 +13362,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "9392e833-dd1a-498c-8d09-9e4a0fbc29f8")
+			(uuid "fc22addf-ee5f-45a6-a3f8-415744d9df5e")
 		)
 		(pad "2" smd rect
 			(at -4.3 2.25)
@@ -13382,7 +13382,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "a731fe47-86e0-47fa-922f-26d20a552978")
+			(uuid "cb01b497-3325-4d5b-8a23-f389cf18c76d")
 		)
 		(embedded_fonts no)
 	)
@@ -29313,7 +29313,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "0fb88fca-7fc0-482d-9e5c-c9b8fb7fb772")
+			(uuid "04ae1324-0d16-47a6-a002-84e9ca6fe71b")
 		)
 		(pad "2" smd rect
 			(at -4.35 2.25)
@@ -29333,7 +29333,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "b4bbbb83-303d-4688-a3cd-d52e4b4383a0")
+			(uuid "0ed38699-5aa6-4b4e-817d-c763a9c12ade")
 		)
 		(embedded_fonts no)
 	)
@@ -32786,13 +32786,12 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_SMD:SW_SPDT_G-Switch_MK-12C03-G015"
+	(footprint "MK-12C03-G015:SW_SPDT_G-Switch_MK-12C03-G015"
 		(layer "F.Cu")
 		(uuid "98c7b725-7a52-4708-b340-b3875d9b5c05")
 		(at 118.8 47.4125 180)
-		(descr "Horizontal attachment 1A Single Pole Double Throw (SPDT) 6V White 10000 times SMD Slide Switches ROHS")
 		(property "Reference" "SW9"
-			(at 0.025 -3.5 0)
+			(at 0 -3.5 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4252f661-ef33-4bf2-aeff-cc525c67b95d")
@@ -32804,7 +32803,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 0 2.5 180)
+			(at 0 1 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "2f72df49-43dd-4b49-ad3c-704de91c2e44")
@@ -32842,7 +32841,7 @@
 			)
 		)
 		(property "LCSC" "C2890358"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4f6ac44e-261c-4302-b722-5391dfb401cf")
@@ -32854,7 +32853,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32867,7 +32866,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32880,7 +32879,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32893,7 +32892,7 @@
 			)
 		)
 		(property "LSCS" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32918,13 +32917,25 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "088e1063-ca0c-4f02-b342-dc8a2a557ec4")
+			(uuid "af771e0f-975d-41b1-a936-e35bc6b33d92")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -5.675 180)
+			(at 0 2.5 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "131dcf81-bb29-42ff-8ed5-f1d5cd2e2f19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 5.675 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "fdd0e9be-eb4f-4117-8470-63c3be13eec3")
 			(effects
 				(font
 					(size 1 1)
@@ -32937,14 +32948,14 @@
 			(size 0.9 0.9)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
-			(uuid "89c1fce5-3f36-4653-bf3e-bed1479b070b")
+			(uuid "6be08361-eb5b-4bff-ac81-dd8ef22a3273")
 		)
 		(pad "" np_thru_hole circle
 			(at 1.5 0 180)
 			(size 0.9 0.9)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
-			(uuid "c555d248-c3a8-4c8e-887f-be9faf9c1681")
+			(uuid "a00ec26f-a27a-4b4b-b323-ef9bc9852fb8")
 		)
 		(pad "1" smd rect
 			(at -2.25 -1.75 180)
@@ -45471,7 +45482,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "bcc3eef9-6b35-4ed1-856d-aee33370233b")
+			(uuid "b1361fe9-c523-4316-9cb9-f7c365f77197")
 		)
 		(pad "2" smd rect
 			(at -4.3 2.25)
@@ -45491,7 +45502,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "b6d6d309-f189-497f-b232-786aeeefa1ee")
+			(uuid "2d89eff8-aab4-4b76-b754-887e75d7a8c7")
 		)
 		(embedded_fonts no)
 	)

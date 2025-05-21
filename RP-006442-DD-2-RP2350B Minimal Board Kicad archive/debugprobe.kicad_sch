@@ -12315,7 +12315,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_G-Switch_MK-12C03-G015"
+		(property "Footprint" "MK-12C03-G015:SW_SPDT_G-Switch_MK-12C03-G015"
 			(at 93.98 40.64 0)
 			(effects
 				(font
