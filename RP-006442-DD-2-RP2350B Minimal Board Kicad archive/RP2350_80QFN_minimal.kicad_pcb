@@ -53282,6 +53282,19 @@
 			(justify left)
 		)
 	)
+	(gr_text "To change:\nSwap C32 and C33 positions\n\nSwap {dblquote}USB power{dblquote} and {dblquote}Probe power{dblquote} silkscreen text position"
+		(at 185.65 72.9 0)
+		(layer "Cmts.User")
+		(uuid "9a08bb44-68fe-457b-945c-4d813b2888bf")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(dimension
 		(type orthogonal)
 		(layer "Cmts.User")
