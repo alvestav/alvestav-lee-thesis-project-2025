@@ -30,9 +30,9 @@ fp-info-cache
 *.xml
 #*.csv
 
-#gerber, bom and production directories
+# gerber, bom and production directories
 production/
 gerbers/
 bom/
 RP-006442-DD-2-RP2350B Minimal Board Kicad archive/.DS_Store
-.DS_Store
+*.DS_Store
