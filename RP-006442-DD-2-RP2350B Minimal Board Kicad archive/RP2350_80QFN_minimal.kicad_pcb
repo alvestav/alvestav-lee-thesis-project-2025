@@ -70711,7 +70711,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F.Cu" "F.SilkS")
+		(layer "F.Cu")
 		(uuid "fe84c4a7-195b-4bc5-8382-a8bb922e40d7")
 		(hatch edge 0.5)
 		(connect_pads
@@ -70728,7 +70728,7 @@
 		)
 		(placement
 			(enabled no)
-			(sheetname "")
+			(sheetname "/")
 		)
 		(fill
 			(thermal_gap 0.5)
