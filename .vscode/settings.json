@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "cwchar": "c",
+        "string": "c",
+        "string_view": "c"
+    }
+}
