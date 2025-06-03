@@ -77,7 +77,7 @@ const int I2C_addr = 0x70;
 #define g 64
 #define DP 128
 
-// spi defines
+// 74hc595 spi defines
 #define SPI_PORT spi0
 #define PIN_MISO 4
 #define PIN_CS   5
@@ -87,9 +87,67 @@ const int I2C_addr = 0x70;
 #define PIN_OE 37
 #define PIN_MR 38
 
-// Accelerometer commands
-#define MMA8451Q_addr 1
-#define MMA8451Q_OUT_X_MSB 
+// MMA8451Q Accelerometer commands
+#define MMA8451Q_ADDRESS 0x1C
+
+// MMA8451Q Accelerometer register addresses
+#define MMA8451Q_F_STATUS 0x00
+#define MMA8451Q_OUT_X_MSB 0x01 
+#define MMA8451Q_OUT_X_LSB 0x02
+#define MMA8451Q_OUT_Y_MSB 0x03
+#define MMA8451Q_OUT_Y_LSB 0x04
+#define MMA8451Q_OUT_Z_MSB 0x05
+#define MMA8451Q_OUT_Z_LSB 0x06
+#define MMA8451Q_F_SETUP 0x09
+#define MMA8451Q_TRIG_CFG 0x0A
+#define MMA8451Q_SYSMOD 0x0B
+#define MMA8451Q_INT_SOURCE 0x0C
+#define MMA8451Q_WHO_AM_I 0x0D
+#define MMA8451Q_XYZ_DATA_CFG 0x0E
+#define MMA8451Q_HP_FILTER_CUTOFF 0x0F
+#define MMA8451Q_PL_STATUS 0x10
+#define MMA8451Q_PL_CFG 0x11
+#define MMA8451Q_PL_COUNT 0x12
+#define MMA8451Q_PL_BF_ZCOMP 0x13
+#define MMA8451Q_P_L_THS_REG 0x14
+#define MMA8451Q_FF_MT_CFG 0x15
+#define MMA8451Q_FF_MT_SRC 0x16
+#define MMA8451Q_FF_MT_THS 0x17
+#define MMA8451Q_FF_MT_COUNT 0x18
+#define MMA8451Q_TRANSIENT_CFG 0x1D
+#define MMA8451Q_TRANSIENT_SRC 0x1E
+#define MMA8451Q_TRANSIENT_THS 0x1F
+#define MMA8451Q_TRANSIENT_COUNT 0x20
+#define MMA8451Q_PULSE_CFG 0x21
+#define MMA8451Q_PULSE_SRC 0x22
+#define MMA8451Q_PULSE_THSX 0x23
+#define MMA8451Q_PULSE_THSY 0x24
+#define MMA8451Q_PULSE_THSZ 0x25
+#define MMA8451Q_PULSE_TMLT 0x26
+#define MMA8451Q_PULSE_LTCY 0x27
+#define MMA8451Q_PULSE_WIND 0x28
+#define MMA8451Q_ALSP_COUNT 0x29
+#define MMA8451Q_CTRL_REG1 0x2A
+#define MMA8451Q_CTRL_REG2 0x2B
+#define MMA8451Q_CTRL_REG3 0x2C
+#define MMA8451Q_CTRL_REG4 0x2D
+#define MMA8451Q_CTRL_REG5 0x2E
+#define MMA8451Q_OFF_X 0x2F
+#define MMA8451Q_OFF_Y 0x30
+#define MMA8451Q_OFF_Z 0x31
+
+#define ACCEL_RANGE_2G      0b00
+#define ACCEL_RANGE_4G      0b01
+#define ACCEL_RANGE_8G      0b10
+
+#define CURRENT_ACCEL_RANGE ACCEL_RANGE_2G
+
+#define SENSITIVITY_2G      8192.0f
+#define SENSITIVITY_4G      4096.0f
+#define SENSITIVITY_8G      2048.0f
+
+#define ODR_100HZ           0b011  // 100 Hz
+#define CURRENT_ODR         ODR_100HZ
 
 // button and switch define
 #define BTN1 30
@@ -111,6 +169,7 @@ const int I2C_addr = 0x70;
 #define LED_GREEN 15
 
 void ht16k33_clear_all(void);
+bool mma8451q_init(void);
 
 // Converts a character to the bit pattern needed to display the right segments.
 // These are pretty standard for 14segment LED's
@@ -264,24 +323,147 @@ void display_snake(int ms) {
     return;
 }
 
-bool mma8451q_init() {
-    // return 1 if init passed
-    return true;
-    // return 0 if init failed
 
-}
 
-void mma8451q_read_register(uint8_t) {
-
-}
-
-void mma8451q_read_data(uint16_t* x, uint16_t* y, uint16_t* z) {
+int mma8451q_write_register(uint8_t reg_address, uint8_t value) {
+    uint8_t buf[2];
+    buf[0] = reg_address;
+    buf[1] = value;
     
+    int ret = i2c_write_blocking(I2C_PORT, MMA8451Q_ADDRESS, buf, 2, false);
+    
+    if (ret != 2) {
+        printf("I2C Write Error to 0x%02X, ret: %d\n", reg_address, ret);
+        return PICO_ERROR_GENERIC;
+    }
+    return ret;
+}
+
+int mma8451q_read_register(uint8_t reg_address, uint8_t *buffer, size_t len) {
+    // first send (device address + write)
+    // then send register address
+    // first tell accelerometer which address to read from
+    int ret = i2c_write_blocking(I2C_PORT, MMA8451Q_ADDRESS, &reg_address, 1, true);
+    if (ret != 1) {
+        printf("Accelerometer I2C read data error (write reg address)\n");
+        return PICO_ERROR_GENERIC;
+    }
+    // then read from accelerometer
+    ret = i2c_read_blocking(I2C_PORT, MMA8451Q_ADDRESS, buffer, len, false); // false stop bit
+    if (ret != len) { // check if number of returned bytes is correct
+        printf("Accelerometer I2C read data error (read data)\n");
+        return PICO_ERROR_GENERIC;
+    }
+    return ret;
+}
+
+
+
+/**
+ * @brief Converts a two's complement value to a signed integer.
+ * @param val The 16-bit value to convert.
+ * @param bits The number of bits representing the value (e.g., 14 for MMA8451Q).
+ * @return The signed integer.
+ */
+int16_t twos_comp_to_int16(uint16_t val, uint8_t bits) {
+    // If the most significant bit (MSB) of the actual data is set, it's a negative number
+    if (val & (1 << (bits - 1))) {
+        // Perform sign extension for a 16-bit signed integer
+        return (int16_t)(val | (~((1 << bits) - 1)));
+    }
+    return (int16_t)val;
+}
+
+bool mma8451q_read_data(uint16_t* x, uint16_t* y, uint16_t* z) {
+    uint8_t raw_data[6]; // X_MSB, X_LSB, Y_MSB, Y_LSB, Z_MSB, Z_LSB
+
+    // read 6 bytes starting from OUT_X_MSB (0x01)
+    if (mma8451q_read_register(MMA8451Q_OUT_X_MSB, raw_data, 6) == PICO_ERROR_GENERIC) {return false;}
+
+    uint16_t raw_x_16bit = (raw_data[0] << 8) | raw_data[1];
+    uint16_t raw_y_16bit = (raw_data[2] << 8) | raw_data[3];
+    uint16_t raw_z_16bit = (raw_data[4] << 8) | raw_data[5];
+
+
+    // convert 16 bit raw data to 14 bit signed integer
+    // right shift by two to get 14 bit value, then convert to twos complement
+    *x = twos_comp_to_int16(raw_x_16bit >> 2, 14);
+    *y = twos_comp_to_int16(raw_y_16bit >> 2, 14);
+    *z = twos_comp_to_int16(raw_z_16bit >> 2, 14);
+ 
+    return true;
 }
 
 void trigger_74hc595_stcp() {
     gpio_put(PIN_STCP, true);
     gpio_put(PIN_STCP, false);
+}
+
+bool mma8451q_init() {
+   printf("Initializing MMA8451Q...\n");
+    uint8_t data_buffer[1];
+
+    // 1. Check WHO_AM_I register
+    // should return 0x1A according to datasheet, but tests show that it returns 0x2A
+    if (mma8451q_read_register(MMA8451Q_WHO_AM_I, &data_buffer[0], 1) == PICO_ERROR_GENERIC) {
+        printf("Error: Could not read WHO_AM_I register.\n");
+        return false;
+    }
+    if (data_buffer[0] != 0x2A) {
+        printf("Error: MMA8451Q not found or WHO_AM_I mismatch (expected 0x1A, got 0x%02X)\n", data_buffer[0]);
+        return false;
+    }
+    printf("MMA8451Q found! WHO_AM_I: 0x%02X\n", data_buffer[0]);
+
+    // set to standby mode
+    if (mma8451q_read_register(MMA8451Q_CTRL_REG1, data_buffer, 1) == PICO_ERROR_GENERIC) return false;
+
+    // clear active bit 0 to enter standby
+    if (mma8451q_write_register(MMA8451Q_CTRL_REG1, data_buffer[0] & ~0x01) == PICO_ERROR_GENERIC) return false;
+    sleep_ms(10); // Small delay after mode change
+
+    // configure g-range
+    if (mma8451q_read_register(MMA8451Q_XYZ_DATA_CFG, data_buffer, 1) == PICO_ERROR_GENERIC) return false;
+
+    // clear bits 1-0 and then set new range
+    uint8_t new_xyz_cfg = (data_buffer[0] & ~0x03) | CURRENT_ACCEL_RANGE;
+    if (mma8451q_write_register(MMA8451Q_XYZ_DATA_CFG, new_xyz_cfg) == PICO_ERROR_GENERIC) return false;
+    printf("Set accelerometer range to %dg\n", (1 << (CURRENT_ACCEL_RANGE + 1)));
+
+    // set output data rate ODR and activate CTRL REG1
+    if (mma8451q_read_register(MMA8451Q_CTRL_REG1, data_buffer, 1) == PICO_ERROR_GENERIC) return false;
+
+    // clear ODR bits 2-0 and set new ODR, then set activate bit
+    uint8_t new_ctrl_reg1 = (data_buffer[0] & ~0x07) | CURRENT_ODR | 0x01; // Set ACTIVE bit (0x01)
+    if (mma8451q_write_register(MMA8451Q_CTRL_REG1, new_ctrl_reg1) == PICO_ERROR_GENERIC) return false;
+    printf("MMA8451Q activated.\n");
+    return true;
+
+}
+
+/**
+ * @brief Converts a raw 14-bit acceleration value to g-force.
+ * @param raw_value The raw 14-bit signed acceleration value.
+ * @return The acceleration in g's.
+ */
+float convert_to_g(int16_t raw_value) {
+    float sensitivity = 0.0f;
+    if (CURRENT_ACCEL_RANGE == ACCEL_RANGE_2G) {
+        sensitivity = SENSITIVITY_2G;
+    } else if (CURRENT_ACCEL_RANGE == ACCEL_RANGE_4G) {
+        sensitivity = SENSITIVITY_4G;
+    } else if (CURRENT_ACCEL_RANGE == ACCEL_RANGE_8G) {
+        sensitivity = SENSITIVITY_8G;
+    } else {
+        printf("Warning: Unknown accelerometer range selected!\n");
+        return 0.0f; // Return 0 or handle error appropriately
+    }
+
+    if (sensitivity == 0.0f) {
+        return 0.0f;
+    }
+
+    return (float)raw_value / sensitivity;
 }
 
 int main() {
@@ -386,9 +568,12 @@ int main() {
     // init ht16k33 after i2c init
     ht16k33_init();
 
-
-    //uint16_t raw_x, raw_y, raw_z;
-    //float g_x, g_y, g_z;
+    if (!mma8451q_init()) {
+        printf("Failed to initialize MMA8451Q. Program will not read data.\n");
+        while (true) { // Loop indefinitely on error
+            sleep_ms(1000);
+        }
+    }
 
     // Test brightness and blinking
     // Set all segments on all digits on
@@ -404,19 +589,22 @@ int main() {
     spidata[1] = 0;
     spidata[2] = 0;
 
-    volatile int btn1, btn2, btn3, btn4;
-    volatile int sw1, sw2, sw3, sw4, sw5, sw6, sw7, sw8;
+    int btn1, btn2, btn3, btn4;
+    int sw1, sw2, sw3, sw4, sw5, sw6, sw7, sw8;
+
+    int16_t raw_x, raw_y, raw_z;
+    float g_x, g_y, g_z;
 
     // start program loop
     // pull-up inverts gpio read, so 'off' switch is read as 1
     while (true)
     {
-        btn1 = !gpio_get(BTN1);
-        btn2 = !gpio_get(BTN2);
-        btn3 = !gpio_get(BTN3);
-        btn4 = !gpio_get(BTN4);
+        btn1 = gpio_get(BTN1);
+        btn2 = gpio_get(BTN2);
+        btn3 = gpio_get(BTN3);
+        btn4 = gpio_get(BTN4);
         
-        
+        printf("button1: %d, button2: %d, button3: %d, button4: %d\n", btn1, btn2, btn3, btn4);
 
         sw1 = !gpio_get(SW1);
         sw2 = !gpio_get(SW2);
@@ -431,7 +619,7 @@ int main() {
         if (btn1 | btn2 | btn3 | btn4) {
             gpio_put(LED_RED, 1);
             gpio_put(LED_YELLOW, 1);
-            gpio_put(LED_GREEN, 1);
+            //gpio_put(LED_GREEN, 1);
         } else {
             gpio_put(LED_RED, 0);
             gpio_put(LED_YELLOW, 0);
@@ -450,6 +638,24 @@ int main() {
         
 
         trigger_74hc595_stcp();
+
+        if (mma8451q_read_data(&raw_x, &raw_y, &raw_z)) {
+            // Convert to g-force
+            g_x = convert_to_g(raw_x);
+            g_y = convert_to_g(raw_y);
+            g_z = convert_to_g(raw_z);
+
+            printf("X: %.3fg, Y: %.3fg, Z: %.3fg\n", g_x, g_y, g_z);
+        } else {
+            printf("Failed to read accelerometer data.\n");
+        }
+
+        // Adjust sleep based on your ODR to avoid reading too fast or too slow
+        // For 100Hz ODR, data is updated every 10ms.
+        // Sleep for a bit less than the ODR period to ensure new data is available.
+        sleep_ms(100); // Example: sleep for 10ms for 100Hz ODR
+        //ht16k33_scroll_string("0   1   2   3   4   5   6   7   8   9   ", 300);
+        display_snake(100);
     }
     
     //display_snake(100);
