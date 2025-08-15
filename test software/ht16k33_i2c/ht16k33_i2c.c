@@ -590,7 +590,15 @@ int main() {
     spidata[1] = 0;
     spidata[2] = 0;
 
-    int btn1, btn2, btn3, btn4;
+    int btn1 = 0;
+    int btn2 = 0;
+    int btn3 = 0;
+    int btn4 = 0;
+    int btn1_prev = 0;
+    int btn2_prev = 0;
+    int btn3_prev = 0;
+    int btn4_prev = 0;
+    
     int sw1, sw2, sw3, sw4, sw5, sw6, sw7, sw8;
 
     int16_t raw_x, raw_y, raw_z;
@@ -601,6 +609,11 @@ int main() {
     while (true)
     {
         // buttons are wired to internal pull-up resistors, which means that a button not pressed will return 1, and pressed returns 0
+        btn1_prev = btn1;
+        btn2_prev = btn2;
+        btn3_prev = btn3;
+        btn4_prev = btn4;
+
         btn1 = gpio_get(BTN1);
         btn2 = gpio_get(BTN2);
         btn3 = gpio_get(BTN3);
@@ -619,10 +632,10 @@ int main() {
         sw8 = !gpio_get(SW8);
 
         
-        if (btn1 | btn2 | btn3 | btn4) {
+        if ((btn1^btn1_prev) | (btn2^btn2_prev) | (btn3^btn3_prev) | (btn4^btn4_prev)) {
             gpio_put(LED_RED, 1);
             gpio_put(LED_YELLOW, 1);
-            //gpio_put(LED_GREEN, 1);
+            gpio_put(LED_GREEN, 1);
         } else {
             gpio_put(LED_RED, 0);
             gpio_put(LED_YELLOW, 0);
