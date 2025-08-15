@@ -607,6 +607,7 @@ int main() {
          
         printf("button1: %d, button2: %d, button3: %d, button4: %d\n", btn1, btn2, btn3, btn4);
 
+        // switches are also wired to internal pull-up resistors, which means that on = 0, off = 1, so we invert the value
         sw1 = !gpio_get(SW1);
         sw2 = !gpio_get(SW2);
         sw3 = !gpio_get(SW3);
