@@ -655,7 +655,8 @@ int main() {
         // Sleep for a bit less than the ODR period to ensure new data is available.
         sleep_ms(100); // Example: sleep for 10ms for 100Hz ODR
         //ht16k33_scroll_string("0   1   2   3   4   5   6   7   8   9   ", 300);
-        display_snake(100);
+        
+        //display_snake(100);
     }
     
     //display_snake(100);
