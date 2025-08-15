@@ -652,7 +652,7 @@ int main() {
             printf("Failed to read accelerometer data.\n");
         }
 
-        // Adjust sleep based on your ODR to avoid reading too fast or too slow
+        // Adjust sleep based ODR to avoid reading too fast or too slow
         // For 100Hz ODR, data is updated every 10ms.
         // Sleep for a bit less than the ODR period to ensure new data is available.
         sleep_ms(100); // Example: sleep for 10ms for 100Hz ODR
