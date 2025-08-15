@@ -142,9 +142,10 @@ const int I2C_addr = 0x70;
 
 #define CURRENT_ACCEL_RANGE ACCEL_RANGE_2G
 
-#define SENSITIVITY_2G      8192.0f
-#define SENSITIVITY_4G      4096.0f
-#define SENSITIVITY_8G      2048.0f
+// page 10 of mma8451q datasheet provides sensitivity numbers
+#define SENSITIVITY_2G      4096.0f
+#define SENSITIVITY_4G      2048.0f
+#define SENSITIVITY_8G      1024.0f
 
 #define ODR_100HZ           0b011  // 100 Hz
 #define CURRENT_ODR         ODR_100HZ
