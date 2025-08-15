@@ -599,11 +599,12 @@ int main() {
     // pull-up inverts gpio read, so 'off' switch is read as 1
     while (true)
     {
+        // buttons are wired to internal pull-up resistors, which means that a button not pressed will return 1, and pressed returns 0
         btn1 = gpio_get(BTN1);
         btn2 = gpio_get(BTN2);
         btn3 = gpio_get(BTN3);
         btn4 = gpio_get(BTN4);
-        
+         
         printf("button1: %d, button2: %d, button3: %d, button4: %d\n", btn1, btn2, btn3, btn4);
 
         sw1 = !gpio_get(SW1);
